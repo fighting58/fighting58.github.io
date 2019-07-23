@@ -1,140 +1,142 @@
 </DOCTYPE html>
 <html>
     <header>
-        <h1> ∞ÌæÁΩ√ ±‚∫ª sql </h1>
+        <p><h1> Í≥†ÏñëÏãú Í∏∞Î≥∏ sql </h1></p>
     </header>
     <body>
-//øÎµµ¡ˆø™¡ˆ±∏ µµ«¸ªË¡¶
+        <p>
+//Ïö©ÎèÑÏßÄÏó≠ÏßÄÍµ¨ ÎèÑÌòïÏÇ≠Ï†ú <br>
 
 
-DELETE FROM LSMD_CONT_UQ162 WHERE MNUM LIKE '%20121069UQT%';
-DELETE FROM LSMD_CONT_UQ161 WHERE MNUM LIKE '%20121069UQS%';
-DELETE FROM LSMD_CONT_UQ164 WHERE MNUM LIKE '%20121069UQV%';
-DELETE FROM LSMD_CONT_UQ111 WHERE MNUM LIKE '%20121069UQA%';
-COMMIT;
+DELETE FROM LSMD_CONT_UQ162 WHERE MNUM LIKE '%20121069UQT%'; <br>
+DELETE FROM LSMD_CONT_UQ161 WHERE MNUM LIKE '%20121069UQS%'; <br>
+DELETE FROM LSMD_CONT_UQ164 WHERE MNUM LIKE '%20121069UQV%'; <br>
+DELETE FROM LSMD_CONT_UQ111 WHERE MNUM LIKE '%20121069UQA%'; <br>
+COMMIT; <br>
 
 
-//øÎµµ¡ˆø™¡ˆ±∏ KRAS º”º∫ªË¡¶
+//Ïö©ÎèÑÏßÄÏó≠ÏßÄÍµ¨ KRAS ÏÜçÏÑ±ÏÇ≠Ï†ú <br>
 
-DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQA%';
-DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQS%';
-DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQV%';
-DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQT%';
-COMMIT;
-
-
-//øÎµµ¡ˆø™¡ˆ±∏ KLIS º”º∫ªË¡¶
-
-DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQA%';
-DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQS%';
-DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQV%';
-DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQT%';
-COMMIT;
+DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQA%'; <br>
+DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQS%'; <br>
+DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQV%'; <br>
+DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQT%'; <br>
+COMMIT; <br>
 
 
-select count(*) from lp_pa_cbnd where bchk like '1';
+//Ïö©ÎèÑÏßÄÏó≠ÏßÄÍµ¨ KLIS ÏÜçÏÑ±ÏÇ≠Ï†ú <br>
 
-select count(*) from lp_pa_cbnd where bchk like '0';
+DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQA%'; <br>
+DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQS%'; <br>
+DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQV%'; <br>
+DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQT%'; <br>
+COMMIT; <br>
 
-select count(*) from lp_pa_cbnd where bchk like '3';
 
-select count(*) from lp_pa_cbnd where bchk like '2';
+select count(*) from lp_pa_cbnd where bchk like '1'; <br>
 
-select count(*) from lp_pa_cbnd where bchk like '9';
+select count(*) from lp_pa_cbnd where bchk like '0'; <br>
 
-select count(*) from lp_pa_cbnd where bchk like '8';
+select count(*) from lp_pa_cbnd where bchk like '3'; <br>
 
-select count(*) from tab;
+select count(*) from lp_pa_cbnd where bchk like '2'; <br>
 
-desc lp_pa_cbnd;
+select count(*) from lp_pa_cbnd where bchk like '9'; <br>
 
-desc lp_U_DESC;
+select count(*) from lp_pa_cbnd where bchk like '8'; <br>
 
-desc lt_c_ud;
+select count(*) from tab; <br>
 
-select * from tab;
+desc lp_pa_cbnd; <br>
 
-sqlplus fdo41280/fdo41280@orakcsc
+desc lp_U_DESC; <br>
 
-sqlplus fdo41280_od/fdo41280_od@orakcsc
+desc lt_c_ud; <br>
 
-sqlplus lmis/lmis@orakcsc
+select * from tab; <br>
 
-Delete from lp_u_desc;
+sqlplus fdo41280/fdo41280@orakcsc <br>
 
-Commit;
+sqlplus fdo41280_od/fdo41280_od@orakcsc <br>
 
-select count(*) from lp_pa_cbnd;
+sqlplus lmis/lmis@orakcsc <br>
 
-select count(*) from lp_pa_cbnd where pnu like '41281%';
+Delete from lp_u_desc; <br>
 
-select count(*) from lp_pa_cbnd where pnu like '41285%';
+Commit; <br>
 
-select count(*) from lp_pa_cbnd where pnu like '41287%';
+select count(*) from lp_pa_cbnd; <br>
 
-select count(*) from lt_c_UQ111;
+select count(*) from lp_pa_cbnd where pnu like '41281%'; <br>
 
-delete from lt_c_ud;
+select count(*) from lp_pa_cbnd where pnu like '41285%'; <br>
+
+select count(*) from lp_pa_cbnd where pnu like '41287%'; <br>
+
+select count(*) from lt_c_UQ111; <br>
+
+delete from lt_c_ud; <br>
  
-select count(*) from lt_c_ud where mnum like '%umq%';
+select count(*) from lt_c_ud where mnum like '%umq%'; <br>
 
-delete from lt_c_ud where mnum like '%UMK600%';
+delete from lt_c_ud where mnum like '%UMK600%'; <br>
 
-delete from lt_c_UQ141 where mnum like '%UQQ600%';
+delete from lt_c_UQ141 where mnum like '%UQQ600%'; <br>
 
-select count(*) from lp_u_desc;
+select count(*) from lp_u_desc; <br>
 
-select count(*) from lp_u_desc where mnum like '%UQQ600%';
+select count(*) from lp_u_desc where mnum like '%UQQ600%'; <br>
 
-select count(*) from lp_u_desc where UCODE like 'UFM%';
+select count(*) from lp_u_desc where UCODE like 'UFM%'; <br>
 
-select count(*) from lp_u_desc where UCODE like 'UQC001';
+select count(*) from lp_u_desc where UCODE like 'UQC001'; <br>
 
-select count(*) from lp_u_desc where UCODE like 'UQB%';
+select count(*) from lp_u_desc where UCODE like 'UQB%'; <br>
 
-delete from lp_u_desc where UCODE like 'UFM%';
+delete from lp_u_desc where UCODE like 'UFM%'; <br>
 
-delete from lp_u_desc where UCODE like 'UQB%';
+delete from lp_u_desc where UCODE like 'UQB%'; <br>
 
-delete from lp_u_desc where UCODE like 'UQQ600';
+delete from lp_u_desc where UCODE like 'UQQ600'; <br>
 
-delete from lp_u_desc where UCODE like 'UDV100';
+delete from lp_u_desc where UCODE like 'UDV100'; <br>
 
-delete from lp_u_desc where pnu LIKE '4128010600500000001';
+delete from lp_u_desc where pnu LIKE '4128010600500000001'; <br>
 
-select mnum, count(*) from lt_c_ud group by mnum having count(*) > 1;
+select mnum, count(*) from lt_c_ud group by mnum having count(*) > 1; <br>
 
-SELECT   pnu, mnum, MAX (ins_date) AS max_ins_date FROM lp_u_desc GROUP BY pnu, mnum HAVING COUNT (1) > 1;
+SELECT   pnu, mnum, MAX (ins_date) AS max_ins_date FROM lp_u_desc GROUP BY pnu, mnum HAVING COUNT (1) > 1; <br>
 
-select bchk from lp_pa_cbnd where pnu='4128113100100700002';
+select bchk from lp_pa_cbnd where pnu='4128113100100700002'; <br>
 
-update lp_pa_cbnd set bchk='0' where pnu='4128113100100700002';
+update lp_pa_cbnd set bchk='0' where pnu='4128113100100700002'; <br>
 
-update lp_pa_cbnd set bchk='1' where pnu='%';
+update lp_pa_cbnd set bchk='1' where pnu='%'; <br>
 
-update lp_pa_cbnd set bchk='9' where pnu='%';
+update lp_pa_cbnd set bchk='9' where pnu='%'; <br>
 
-SELECT A.MNUM FROM (SELECT MNUM FROM LT_C_UD) A, (SELECT MNUM FROM LT_C_UD WHERE (MNUM) IN (SELECT MNUM FROM LP_U_DESC GROUP BY MNUM)) B WHERE B.MNUM(+) = A.MNUM AND B.MNUM IS NULL; 
+SELECT A.MNUM FROM (SELECT MNUM FROM LT_C_UD) A, (SELECT MNUM FROM LT_C_UD WHERE (MNUM) IN (SELECT MNUM FROM LP_U_DESC GROUP BY MNUM)) B WHERE B.MNUM(+) = A.MNUM AND B.MNUM IS NULL;  <br>
 
-select count(*) from lt_c_uq111 where mnum like '%UQA430%';
+select count(*) from lt_c_uq111 where mnum like '%UQA430%'; <br>
 
-select count(*) from lt_c_uD801 where mnum like '%UDV100%';
+select count(*) from lt_c_uD801 where mnum like '%UDV100%'; <br>
 
-select count(*) from lt_c_UQ141 where mnum like '%UQQ600%';
+select count(*) from lt_c_UQ141 where mnum like '%UQQ600%'; <br>
 
-select count(*) from lt_c_uD801;
+select count(*) from lt_c_uD801; <br>
 
-delete from lt_c_UD801;
+delete from lt_c_UD801; <br>
 
-DELETE FROM LT_C_UQ141 WHERE MNUM LIKE '%UQQ600%';
+DELETE FROM LT_C_UQ141 WHERE MNUM LIKE '%UQQ600%'; <br>
 
-DELETE FROM LT_C_UQ111 WHERE MNUM LIKE '%UQA430%';
+DELETE FROM LT_C_UQ111 WHERE MNUM LIKE '%UQA430%'; <br>
 
-select * from table where mnum like '%uq600%'
+select * from table where mnum like '%uq600%' <br>
 
-update lt_c_uq141
-set alias = "text"
-mnum like '%UQQ600%'
+update lt_c_uq141 <br>
+set alias = "text" <br>
+mnum like '%UQQ600%' <br>
+        </p>
     </body>
 </html>
 
