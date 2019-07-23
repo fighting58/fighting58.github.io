@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <h1> SDE SETTINGS</h1> 
+    </header>
+    <body>
+        <p>
+            <br><b>1) 초기설정</b><br>
+            ① KCSCFDO 폴더를  C:\Program Files 경로 안에 복사해서 붙여넣기<br><br>
+            ② 환경변수설정<br>
+            &nbsp;&nbsp;&nbsp;&nbsp : 내컴퓨터_고급_환경변수_PATH_편집<br>
+            &nbsp;&nbsp;&nbsp;&nbsp : 시스템 변수 편집에 들어가 변수값 마지막에 ;C:\Program Files\KCSCFdo\SDE 경로를 추가<br>
+            <image src="./images/system_path.png"><br><br>
+            ③ services 파일 수정<br>
+            &nbsp;&nbsp;&nbsp;&nbsp  : C:\Windwos\System32\drivers\etc 경로에서 services파일을 직접 수정<br>
+            &nbsp;&nbsp;&nbsp;&nbsp  : esri_sde         5155/tcp 문구를 직접 입력<br>
+            <image src="./images/esri_sde.png"><br><br>
+        </p>
+        <p>
+            <b>2) 로딩</b><br>
+            ① C:\ 에 LOADING 폴더를 생성하여 자료 준비<br>
+            ② CMD 창에서 C:\LOADING 폴더로 이동<br>
+            ③ ATTR 파일을 LOADING 폴더에 복사<br>
+            ④ APPEND 명령문에서 레이어명과 IP확인 후 CMD창에 붙여넣기<br>
+            &nbsp;&nbsp;  ※TRUNCATE 명령문도 방법은 동일함<br>
+            ⑤ REMARK 필드(비고란) 괄호삭제<br>
+            &nbsp;&nbsp;&nbsp;&nbsp  : UPDATE LSMD_CONT_UQ111 SET REMARK=NULL WHERE REMARK IS NULL OR LENGTH(REMARK)<2;<br>
+        </p>
+    </body>
+</html>
