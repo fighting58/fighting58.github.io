@@ -1,0 +1,140 @@
+</DOCTYPE html>
+<html>
+    <header>
+        <h1> 고양시 기본 sql </h1>
+    </header>
+    <body>
+//용도지역지구 도형삭제
+
+
+DELETE FROM LSMD_CONT_UQ162 WHERE MNUM LIKE '%20121069UQT%';
+DELETE FROM LSMD_CONT_UQ161 WHERE MNUM LIKE '%20121069UQS%';
+DELETE FROM LSMD_CONT_UQ164 WHERE MNUM LIKE '%20121069UQV%';
+DELETE FROM LSMD_CONT_UQ111 WHERE MNUM LIKE '%20121069UQA%';
+COMMIT;
+
+
+//용도지역지구 KRAS 속성삭제
+
+DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQA%';
+DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQS%';
+DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQV%';
+DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQT%';
+COMMIT;
+
+
+//용도지역지구 KLIS 속성삭제
+
+DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQA%';
+DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQS%';
+DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQV%';
+DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQT%';
+COMMIT;
+
+
+select count(*) from lp_pa_cbnd where bchk like '1';
+
+select count(*) from lp_pa_cbnd where bchk like '0';
+
+select count(*) from lp_pa_cbnd where bchk like '3';
+
+select count(*) from lp_pa_cbnd where bchk like '2';
+
+select count(*) from lp_pa_cbnd where bchk like '9';
+
+select count(*) from lp_pa_cbnd where bchk like '8';
+
+select count(*) from tab;
+
+desc lp_pa_cbnd;
+
+desc lp_U_DESC;
+
+desc lt_c_ud;
+
+select * from tab;
+
+sqlplus fdo41280/fdo41280@orakcsc
+
+sqlplus fdo41280_od/fdo41280_od@orakcsc
+
+sqlplus lmis/lmis@orakcsc
+
+Delete from lp_u_desc;
+
+Commit;
+
+select count(*) from lp_pa_cbnd;
+
+select count(*) from lp_pa_cbnd where pnu like '41281%';
+
+select count(*) from lp_pa_cbnd where pnu like '41285%';
+
+select count(*) from lp_pa_cbnd where pnu like '41287%';
+
+select count(*) from lt_c_UQ111;
+
+delete from lt_c_ud;
+ 
+select count(*) from lt_c_ud where mnum like '%umq%';
+
+delete from lt_c_ud where mnum like '%UMK600%';
+
+delete from lt_c_UQ141 where mnum like '%UQQ600%';
+
+select count(*) from lp_u_desc;
+
+select count(*) from lp_u_desc where mnum like '%UQQ600%';
+
+select count(*) from lp_u_desc where UCODE like 'UFM%';
+
+select count(*) from lp_u_desc where UCODE like 'UQC001';
+
+select count(*) from lp_u_desc where UCODE like 'UQB%';
+
+delete from lp_u_desc where UCODE like 'UFM%';
+
+delete from lp_u_desc where UCODE like 'UQB%';
+
+delete from lp_u_desc where UCODE like 'UQQ600';
+
+delete from lp_u_desc where UCODE like 'UDV100';
+
+delete from lp_u_desc where pnu LIKE '4128010600500000001';
+
+select mnum, count(*) from lt_c_ud group by mnum having count(*) > 1;
+
+SELECT   pnu, mnum, MAX (ins_date) AS max_ins_date FROM lp_u_desc GROUP BY pnu, mnum HAVING COUNT (1) > 1;
+
+select bchk from lp_pa_cbnd where pnu='4128113100100700002';
+
+update lp_pa_cbnd set bchk='0' where pnu='4128113100100700002';
+
+update lp_pa_cbnd set bchk='1' where pnu='%';
+
+update lp_pa_cbnd set bchk='9' where pnu='%';
+
+SELECT A.MNUM FROM (SELECT MNUM FROM LT_C_UD) A, (SELECT MNUM FROM LT_C_UD WHERE (MNUM) IN (SELECT MNUM FROM LP_U_DESC GROUP BY MNUM)) B WHERE B.MNUM(+) = A.MNUM AND B.MNUM IS NULL; 
+
+select count(*) from lt_c_uq111 where mnum like '%UQA430%';
+
+select count(*) from lt_c_uD801 where mnum like '%UDV100%';
+
+select count(*) from lt_c_UQ141 where mnum like '%UQQ600%';
+
+select count(*) from lt_c_uD801;
+
+delete from lt_c_UD801;
+
+DELETE FROM LT_C_UQ141 WHERE MNUM LIKE '%UQQ600%';
+
+DELETE FROM LT_C_UQ111 WHERE MNUM LIKE '%UQA430%';
+
+select * from table where mnum like '%uq600%'
+
+update lt_c_uq141
+set alias = "text"
+mnum like '%UQQ600%'
+    </body>
+</html>
+
