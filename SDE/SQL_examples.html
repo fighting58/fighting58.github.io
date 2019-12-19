@@ -33,7 +33,7 @@ DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQT%'; <br>
 COMMIT; <br>
 
 
-select count(*) from lp_pa_cbnd where bchk like '1'; <br>
+select count(*) from LSMD_CONT_LDREG where bchk like '1'; <br>
 
 select count(*) from lp_pa_cbnd where bchk like '0'; <br>
 
@@ -109,7 +109,7 @@ SELECT   pnu, mnum, MAX (ins_date) AS max_ins_date FROM lp_u_desc GROUP BY pnu, 
 
 select bchk from lp_pa_cbnd where pnu='4128113100100700002'; <br>
 
-update lp_pa_cbnd set bchk='0' where pnu='4128113100100700002'; <br>
+update LSMD_CONT_LDREG set bchk='0' where pnu='4128113100100700002'; <br>
 
 update lp_pa_cbnd set bchk='1' where pnu='%'; <br>
 
