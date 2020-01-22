@@ -5,14 +5,19 @@
     </header>
     <body>
         <p>
-//용도지역지구 도형삭제 <br>
-
+//KRAS 용도지역지구 도형삭제 <br>
 
 DELETE FROM LSMD_CONT_UQ162 WHERE MNUM LIKE '%20121069UQT%'; <br>
 DELETE FROM LSMD_CONT_UQ161 WHERE MNUM LIKE '%20121069UQS%'; <br>
 DELETE FROM LSMD_CONT_UQ164 WHERE MNUM LIKE '%20121069UQV%'; <br>
-DELETE FROM LSMD_CONT_UQ111 WHERE MNUM LIKE '%20121069UQA%'; <br>
 COMMIT; <br>
+
+# KRAS 레이어 전체 삭제
+DELETE FROM LSMD_CONT_UD801; <br>
+            
+# KRAS 용도지역 ALIAS 갱신            
+UPDATE LSMD_CONT_UQ141 SET ALIAS="text" MNUM LIKE '%UQQ600%' <br>
+UPDATE LSMD_CONT_UQ141 SET ALIAS="text" MNUM = '00000000000000000000UQQ60000000000' <br>
 
 
 //용도지역지구 KRAS 속성삭제 <br>
@@ -20,7 +25,6 @@ COMMIT; <br>
 DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQA%'; <br>
 DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQS%'; <br>
 DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQV%'; <br>
-DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQT%'; <br>
 COMMIT; <br>
 
 
@@ -29,21 +33,19 @@ COMMIT; <br>
 DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQA%'; <br>
 DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQS%'; <br>
 DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQV%'; <br>
-DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQT%'; <br>
 COMMIT; <br>
 
+            
+# 특정 필지의 BCHK값 갱신
+UPDATE LSMD_CONT_LDREG SET BCHK='0' WHERE PNU='4128113100100700002'; <br>
+            
+# 개수 조회   
+SELECT COUNT(*) FROM LSMD_CONT_LDREG; <br>
+SELECT COUNT(*) FROM LSMD_CONT_LDREG WHERE PNU LIKE '41360%'; <br>
+SELECT COUNT(*) FROM LSMD_CONT_LDREG WHERE BCHK LIKE '%0%'; <br>            
+SELECT COUNT(*) FROM LSMD_CONT_UQ111; <br>
+SELECT COUNT(*) FROM LSMD_CONT_UQ111 WHERE MNUM LIKE '%UQQ600%'; <br>
 
-select count(*) from LSMD_CONT_LDREG where bchk like '1'; <br>
-
-select count(*) from lp_pa_cbnd where bchk like '0'; <br>
-
-select count(*) from lp_pa_cbnd where bchk like '3'; <br>
-
-select count(*) from lp_pa_cbnd where bchk like '2'; <br>
-
-select count(*) from lp_pa_cbnd where bchk like '9'; <br>
-
-select count(*) from lp_pa_cbnd where bchk like '8'; <br>
 
 select count(*) from tab; <br>
 
@@ -65,24 +67,7 @@ Delete from lp_u_desc; <br>
 
 Commit; <br>
 
-select count(*) from lp_pa_cbnd; <br>
-
-select count(*) from lp_pa_cbnd where pnu like '41281%'; <br>
-
-select count(*) from lp_pa_cbnd where pnu like '41285%'; <br>
-
-select count(*) from lp_pa_cbnd where pnu like '41287%'; <br>
-
-select count(*) from lt_c_UQ111; <br>
-
-delete from lt_c_ud; <br>
- 
-select count(*) from lt_c_ud where mnum like '%umq%'; <br>
-
-delete from lt_c_ud where mnum like '%UMK600%'; <br>
-
-delete from lt_c_UQ141 where mnum like '%UQQ600%'; <br>
-
+          
 select count(*) from lp_u_desc; <br>
 
 select count(*) from lp_u_desc where mnum like '%UQQ600%'; <br>
@@ -108,34 +93,11 @@ select mnum, count(*) from lt_c_ud group by mnum having count(*) > 1; <br>
 SELECT   pnu, mnum, MAX (ins_date) AS max_ins_date FROM lp_u_desc GROUP BY pnu, mnum HAVING COUNT (1) > 1; <br>
 
 select bchk from lp_pa_cbnd where pnu='4128113100100700002'; <br>
+            
 
-update LSMD_CONT_LDREG set bchk='0' where pnu='4128113100100700002'; <br>
-
-update lp_pa_cbnd set bchk='1' where pnu='%'; <br>
-
-update lp_pa_cbnd set bchk='9' where pnu='%'; <br>
 
 SELECT A.MNUM FROM (SELECT MNUM FROM LT_C_UD) A, (SELECT MNUM FROM LT_C_UD WHERE (MNUM) IN (SELECT MNUM FROM LP_U_DESC GROUP BY MNUM)) B WHERE B.MNUM(+) = A.MNUM AND B.MNUM IS NULL;  <br>
 
-select count(*) from lt_c_uq111 where mnum like '%UQA430%'; <br>
-
-select count(*) from lt_c_uD801 where mnum like '%UDV100%'; <br>
-
-select count(*) from lt_c_UQ141 where mnum like '%UQQ600%'; <br>
-
-select count(*) from lt_c_uD801; <br>
-
-delete from lt_c_UD801; <br>
-
-DELETE FROM LT_C_UQ141 WHERE MNUM LIKE '%UQQ600%'; <br>
-
-DELETE FROM LT_C_UQ111 WHERE MNUM LIKE '%UQA430%'; <br>
-
-select * from table where mnum like '%uq600%' <br>
-
-update lt_c_uq141 <br>
-set alias = "text" <br>
-mnum like '%UQQ600%' <br>
         </p>
     </body>
 </html>
