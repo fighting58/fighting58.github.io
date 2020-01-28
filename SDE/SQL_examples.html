@@ -6,47 +6,47 @@
     <body>
         <p>
 //KRAS 용도지역지구 도형삭제 <br>
-
+<br>
 DELETE FROM LSMD_CONT_UQ162 WHERE MNUM LIKE '%20121069UQT%'; <br>
 DELETE FROM LSMD_CONT_UQ161 WHERE MNUM LIKE '%20121069UQS%'; <br>
 DELETE FROM LSMD_CONT_UQ164 WHERE MNUM LIKE '%20121069UQV%'; <br>
 COMMIT; <br>
-
-# KRAS 레이어 전체 삭제
+<br>
+# KRAS 레이어 전체 삭제<br>
 DELETE FROM LSMD_CONT_UD801; <br>
-            
-# KRAS 용도지역 ALIAS 갱신            
+<br>           
+# KRAS 용도지역 ALIAS 갱신<br>         
 UPDATE LSMD_CONT_UQ141 SET ALIAS="text" MNUM LIKE '%UQQ600%' <br>
 UPDATE LSMD_CONT_UQ141 SET ALIAS="text" MNUM = '00000000000000000000UQQ60000000000' <br>
-
-
+<br>
+<br>
 //용도지역지구 KRAS 속성삭제 <br>
-
+<br>
 DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQA%'; <br>
 DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQS%'; <br>
 DELETE FROM ABPD_LAND_USE_STS WHERE MNG_NO LIKE '%20121069UQV%'; <br>
 COMMIT; <br>
-
-
+<br>
+<br>
 //용도지역지구 KLIS 속성삭제 <br>
-
+<br>
 DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQA%'; <br>
 DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQS%'; <br>
 DELETE FROM LP_U_DESC@KLIS WHERE MNUM LIKE '%20121069UQV%'; <br>
 COMMIT; <br>
-
-            
-# 특정 필지의 BCHK값 갱신
+<br>
+<br>            
+# 특정 필지의 BCHK값 갱신<br>
 UPDATE LSMD_CONT_LDREG SET BCHK='0' WHERE PNU='4128113100100700002'; <br>
-            
-# 개수 조회   
+<br>           
+# 개수 조회<br>
 SELECT COUNT(*) FROM LSMD_CONT_LDREG; <br>
 SELECT COUNT(*) FROM LSMD_CONT_LDREG WHERE PNU LIKE '41360%'; <br>
 SELECT COUNT(*) FROM LSMD_CONT_LDREG WHERE BCHK LIKE '%0%'; <br>            
 SELECT COUNT(*) FROM LSMD_CONT_UQ111; <br>
 SELECT COUNT(*) FROM LSMD_CONT_UQ111 WHERE MNUM LIKE '%UQQ600%'; <br>
-
-
+<br>
+<br>
 select count(*) from tab; <br>
 
 desc lp_pa_cbnd; <br>
