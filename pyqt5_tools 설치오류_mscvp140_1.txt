@@ -1,0 +1,15 @@
+pyqt5-tool에서 designer실행시 아래 오류를 접할 시 해결방법!!!
+
+"msvcp140_1.dll이(가) 없어 코드 실행을 진행할 수 없습니다...."
+
+python 3.8
+windows10 64bit
+
+1. USER 환경변수 중 path 편집(추가)
+   C:\Users\USER\AppData\Local\Programs\Python\Python38\Lib\site-packages\PyQt5\Qt\bin
+   *** 상기 폴더에 msvcp140_1.dll 파일 존재
+  
+2. USER 환경변수 추가
+   변수: QT_PLUGIN_PATH
+   값:  C:\Users\USER\AppData\Local\Programs\Python\Python38\Lib\site-packages\PyQt5\Qt\plugins
+   *** 환경변수 추가
