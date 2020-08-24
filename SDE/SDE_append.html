@@ -4,15 +4,28 @@
         <h1><< SDE append문 예시 >></h1>
     </header>
     <body>
-        <p>shp2sde -o append -l LSMD_CONT_LDREG,shape -f LSMD_CONT_LDREG.shp -a file=cbnd.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
-        <p>shp2sde -o append -l LSMD_CONT_UQ161,shape -f LSMD_CONT_UQ161.shp -a file=lt.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
-        <p>shp2sde -o append -l LSMD_CONT_LDREG_IDX05,shape -f LSMD_CONT_LDREG_IDX05.shp -a file=inx.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
-        <p>shp2sde -o append -l LSMD_CONT_LDREG_IDX06,shape -f LSMD_CONT_LDREG_IDX06.shp -a file=inx.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
-        <p>shp2sde -o append -l LSMD_CONT_LDREG_IDX12,shape -f LSMD_CONT_LDREG_IDX12.shp -a file=inx.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
-        
-        <p>shp2sde -o append -l lp_aa_ri,shape -f lp_aa_ri.shp -a file=ri.attr -i esri_sde -s 000.00.0.00 -u lis -p lis<br>
-        <p>shp2sde -o append -l lp_aa_emd,shape -f lp_aa_emd.shp -a file=emd.attr -i esri_sde -s 000.00.0.00 -u lis -p lis<br>
-        <p>shp2sde -o append -l lp_aa_sgg,shape -f lp_aa_sgg.shp -a file=sgg.attr -i esri_sde -s 000.00.0.00 -u lis -p lis<br>
+        <p>
+            연속지적도<br>
+            shp2sde -o append -l LSMD_CONT_LDREG,shape -f LSMD_CONT_LDREG.shp -a file=cbnd.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
+        <p>
+            용도지역지구<br>
+            shp2sde -o append -l LSMD_CONT_UQ161,shape -f LSMD_CONT_UQ161.shp -a file=lt.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
+        <p>
+            연속도곽 500<br>
+            shp2sde -o append -l LSMD_CONT_LDREG_IDX05,shape -f LSMD_CONT_LDREG_IDX05.shp -a file=inx.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
+        <p>
+            연속도곽 600<br>
+            shp2sde -o append -l LSMD_CONT_LDREG_IDX06,shape -f LSMD_CONT_LDREG_IDX06.shp -a file=inx.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
+        <p>
+            연속도곽 1200<br>
+            shp2sde -o append -l LSMD_CONT_LDREG_IDX12,shape -f LSMD_CONT_LDREG_IDX12.shp -a file=inx.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
+        <p>
+            행정구역 읍면동<br>
+            shp2sde -o append -l LSMD_ADM_SECT_UMD,shape -f LSMD_ADM_SECT_UMD.shp -a file=emd.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
+        <p>
+            행정구역 리<br>
+            shp2sde -o append -l LSMD_ADM_SECT_RI,shape -f LSMD_ADM_SECT_RI.shp -a file=ri.attr -i esri_sde -s 000.00.0.00 -u MLTM -p MLTM</p><br>
+
     </body>
 </html>
 
