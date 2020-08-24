@@ -1,7 +1,7 @@
 </DOCTYPE html>
 <html>
     <header>
-        <p><h1> 고양시 기본 sql </h1></p>
+        <p><h1>기본 sql</h1></p>
     </header>
     <body>
         <p>
@@ -42,7 +42,7 @@ COMMIT; <br>
 <br>
 <br>            
 # 특정 필지의 BCHK값 갱신<br>
-UPDATE LSMD_CONT_LDREG SET BCHK="0" WHERE PNU="4128113100100700002"; <br>
+UPDATE LSMD_CONT_LDREG SET BCHK="0" WHERE PNU="0000013100100700002"; <br>
 <br>
 <br>            
 # 연속 도곽 삭제 <br>
@@ -53,58 +53,40 @@ DELETE FROM LSMD_CONT_LDREG_IDX12; <br>
 <br>
 # 개수 조회<br>
 SELECT COUNT(*) FROM LSMD_CONT_LDREG; <br>
-SELECT COUNT(*) FROM LSMD_CONT_LDREG WHERE PNU LIKE "41360%"; <br>
+SELECT COUNT(*) FROM LSMD_CONT_LDREG WHERE PNU LIKE "40000%"; <br>
 SELECT COUNT(*) FROM LSMD_CONT_LDREG WHERE BCHK LIKE "%0%"; <br>            
 SELECT COUNT(*) FROM LSMD_CONT_UQ111; <br>
 SELECT COUNT(*) FROM LSMD_CONT_UQ111 WHERE MNUM LIKE "%UQQ600%"; <br>
 <br>
 <br>
-select count(*) from tab; <br>
 
-desc lp_pa_cbnd; <br>
-
-desc lp_U_DESC; <br>
-
-desc lt_c_ud; <br>
-
-select * from tab; <br>
-
-sqlplus fdo41280/fdo41280@orakcsc <br>
-
-sqlplus fdo41280_od/fdo41280_od@orakcsc <br>
-
-sqlplus lmis/lmis@orakcsc <br>
-
-Delete from lp_u_desc; <br>
-
-Commit; <br>
 
           
 select count(*) from lp_u_desc; <br>
 
 select count(*) from lp_u_desc where mnum like "%UQQ600%"; <br>
 
-select count(*) from lp_u_desc where UCODE like "UFM%"; <br>
+select count(*) from lp_u_desc where UCODE like "%UFM%"; <br>
 
-select count(*) from lp_u_desc where UCODE like "UQC001"; <br>
+select count(*) from lp_u_desc where UCODE like "%UQC001%"; <br>
 
-select count(*) from lp_u_desc where UCODE like "UQB%"; <br>
+select count(*) from lp_u_desc where UCODE like "%UQB%"; <br>
 
-delete from lp_u_desc where UCODE like "UFM%"; <br>
+delete from lp_u_desc where UCODE like "%UFM%"; <br>
 
-delete from lp_u_desc where UCODE like "UQB%"; <br>
+delete from lp_u_desc where UCODE like "%UQB%"; <br>
 
-delete from lp_u_desc where UCODE like "UQQ600"; <br>
+delete from lp_u_desc where UCODE like "%UQQ600%"; <br>
 
-delete from lp_u_desc where UCODE like "UDV100"; <br>
+delete from lp_u_desc where UCODE like "%UDV100%"; <br>
 
-delete from lp_u_desc where pnu LIKE "4128010600500000001"; <br>
+delete from lp_u_desc where pnu LIKE "0000010600500000001"; <br>
 
 select mnum, count(*) from lt_c_ud group by mnum having count(*) > 1; <br>
 
 SELECT   pnu, mnum, MAX (ins_date) AS max_ins_date FROM lp_u_desc GROUP BY pnu, mnum HAVING COUNT (1) > 1; <br>
 
-select bchk from lp_pa_cbnd where pnu="4128113100100700002"; <br>
+select bchk from lp_pa_cbnd where pnu="0000013100100700002"; <br>
             
 
 
