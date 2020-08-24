@@ -43,7 +43,14 @@ COMMIT; <br>
 <br>            
 # 특정 필지의 BCHK값 갱신<br>
 UPDATE LSMD_CONT_LDREG SET BCHK='0' WHERE PNU='4128113100100700002'; <br>
-<br>           
+<br>
+<br>            
+# 연속 도곽 삭제 <br>
+DELETE FROM LSMD_CONT_LDREG_IDX05; <br>
+DELETE FROM LSMD_CONT_LDREG_IDX06; <br>
+DELETE FROM LSMD_CONT_LDREG_IDX12; <br>
+<br> 
+<br>
 # 개수 조회<br>
 SELECT COUNT(*) FROM LSMD_CONT_LDREG; <br>
 SELECT COUNT(*) FROM LSMD_CONT_LDREG WHERE PNU LIKE '41360%'; <br>
