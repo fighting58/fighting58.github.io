@@ -1,1 +1,17 @@
-
+<style type="text/css">
+    h1 {font-size: 60px; color:blue; }
+    p {margin: 1; }
+    ul li {margin: 10px;}
+    footer {
+        text-align: center;
+        height:125px; // Replace with the height your footer should be
+        width: 100%; // Don't change
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        position: fixed;
+        bottom: 0pt;
+        left: 0pt;}
+   .bar {height: 5px; width:100%; margin: auto;}
+</style>
