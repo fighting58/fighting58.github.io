@@ -1,7 +1,8 @@
 <style type="text/css">
+    #navi {text-decoration:none;}
     h1 {font-size: 60px; color:blue; }
     p {margin: 1; }
-    ul li {margin: 10px; text-decoration:none;}
+    ul li {margin: 10px;}
     footer {
         text-align: center;
         height:125px; // Replace with the height your footer should be
