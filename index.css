@@ -14,5 +14,5 @@
         position: fixed;
         bottom: 0pt;
         left: 0pt;}
-   .bar {height: 5px; width:100%; margin: auto;}
+   .bar {height: 5px; width:100vw; margin: auto;}
 </style>
