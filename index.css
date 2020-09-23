@@ -16,6 +16,11 @@ a:hover {
     text-shadow: 0 0 1rem rgb(0, 0, 255), 0 0 .2rem rgb(255, 255, 255);
 }
 
+
+a:visited{
+    color: blue;
+}
+
 body{
     background: black;
     font-size: 4rem;
