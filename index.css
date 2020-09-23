@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    vertical-align: baseline;
+}
+
+html{
+    font-size: 1em;
+}
+a { 
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    font-size: 1.5rem;
+    text-shadow: 0 0 1rem rgb(0, 0, 255), 0 0 .2rem rgb(255, 255, 255);
+}
+
+body{
+    background: black;
+    font-size: 4rem;
+}
+
+.title {
+    font: normal 1rem, '굴림', sans-serif; 
+    margin-bottom: 1rem;
+    color:blue; 
+    text-align: center; 
+    height: 10rem;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    margin: .5rem;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font: normal .8rem 'san-serif', sans-serif;
+    height:100px; // Replace with the height your footer should be
+    width: 100vw; // Don't change
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;}
+.bar {height: 1rem; width:100vw; margin: auto;}
+
+#navi {
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+}
+
+#navi p {
+    margin: 1rem;
+    padding: .2rem;
+    font: bold 2rem '굴림', sans-serif;
+    color: #0000ff;
+    border: 1px solid white;
+}
+
+#navi>div {
+    font-size: 1.4rem;
+    border: 1px solid black;
+    justify-content: space-between;
+    flex: 1 1 60px; 
+    flex-wrap: wrap;
+
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 .5rem #2d9da9;
+    }
+    to {
+        text-shadow: 0 0 1rem #34b3c1, 0 0 0.5rem #89c8e6;
+    }
+}
+
