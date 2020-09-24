@@ -72,11 +72,13 @@ footer {
     font: bold 2rem '굴림', sans-serif;
     color: #0000ff;
     border: 1px solid white;
+    background: rgba(80, 120,0, 20); 
 }
 
 #navi>div {
     font-size: 1.4rem;
     border: 1px solid black;
+    background: rgba(120, 150,0, 20); 
 }
 
 @keyframes glow {
