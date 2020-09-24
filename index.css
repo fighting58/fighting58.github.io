@@ -5,6 +5,11 @@
 
 html{
     font-size: 1em;
+    background: url(images/bg.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 a { 
     text-decoration: none;
@@ -18,9 +23,6 @@ a:hover {
 }
 
 body{
-    background-image : url('image/bg.jpeg');
-    background-repeat : no-repeat;
-    background-size : cover;
     font-size: 4rem;
 }
 
