@@ -34,7 +34,6 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0px;
     padding: 0px;
 }
@@ -72,13 +71,13 @@ footer {
     font: bold 2rem '굴림', sans-serif;
     color: #0000ff;
     border: 1px solid white;
-    background: rgba(80, 120,0, 20); 
+    background: rgba(30, 120,0, 10); 
 }
 
 #navi>div {
     font-size: 1.4rem;
     border: 1px solid black;
-    background: rgba(120, 150,0, 20); 
+    background: rgba(120, 150,0, 10); 
 }
 
 @keyframes glow {
