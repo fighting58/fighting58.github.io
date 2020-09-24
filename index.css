@@ -8,17 +8,13 @@ html{
 }
 a { 
     text-decoration: none;
+    color: blue;
 }
 
 a:hover {
     color: yellow;
     font-size: 1.5rem;
     text-shadow: 0 0 1rem rgb(0, 0, 255), 0 0 .2rem rgb(255, 255, 255);
-}
-
-
-a:visited{
-    color: none;
 }
 
 body{
