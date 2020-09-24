@@ -61,7 +61,6 @@ footer {
     display: flex;
     font-size: 2rem;
     justify-content: center;
-    flex: 1 1 60px; 
     flex-wrap: wrap;
 }
 
@@ -76,6 +75,7 @@ footer {
 
 #navi>div {
     font-size: 1.4rem;
+    flex: 1 1 60px;
     border: 1px solid black;
     background: rgba(120, 150,0, 10); 
 }
