@@ -70,14 +70,14 @@ footer {
     font: bold 2rem '굴림', sans-serif;
     color: #0000ff;
     border: 1px solid white;
-    background: rgba(30, 120,0, 10); 
+    background: rgba(214, 234, 248, 10); 
 }
 
 #navi>div {
     font-size: 1.4rem;
     flex: 1 1 60px;
     border: 1px solid black;
-    background: rgba(120, 150,0, 10); 
+    background: rgba(169, 223, 191, 10); 
 }
 
 @keyframes glow {
