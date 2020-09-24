@@ -18,7 +18,9 @@ a:hover {
 }
 
 body{
-    background: black;
+    background-image : url('bgimg.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
     font-size: 4rem;
 }
 
