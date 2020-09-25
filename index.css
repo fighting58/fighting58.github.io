@@ -8,7 +8,7 @@ html{
 }
 a { 
     text-decoration: none;
-    color: #66658a;
+    color: #FBFAF8;
 }
 
 a:hover {
@@ -29,7 +29,7 @@ body{
 .title {
     font: normal 1rem, '굴림', sans-serif; 
     margin-bottom: 1rem;
-    color: #66658a;
+    color: #FBFAF8;
     text-align: center; 
     height: 10rem;
     animation: glow 2s ease-in-out infinite alternate;
@@ -72,16 +72,16 @@ footer {
     margin: 1rem;
     padding: .2rem;
     font: bold 2rem '굴림', sans-serif;
-    color: #66658a;
+    color: #FBFAF8;
     border: 1px solid white;
-    background: rgba(214, 234, 248, .2); 
+    background: rgba(214, 234, 248, .4); 
 }
 
 #navi>div {
     font-size: 1.4rem;
     flex: 1 1 60px;
     border: 1px solid black;
-    background: rgba(169, 223, 191, .2); 
+    background: rgba(169, 223, 191, .4); 
 }
 
 @keyframes glow {
