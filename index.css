@@ -29,7 +29,7 @@ body{
 .title {
     font: normal 1rem, '굴림', sans-serif; 
     margin-bottom: 1rem;
-    color:blue; 
+    color: rgb(66, 103, 178);
     text-align: center; 
     height: 10rem;
     animation: glow 2s ease-in-out infinite alternate;
@@ -72,7 +72,7 @@ footer {
     margin: 1rem;
     padding: .2rem;
     font: bold 2rem '굴림', sans-serif;
-    color: #0000ff;
+    color: rgb(66, 103, 178);
     border: 1px solid white;
     background: rgba(214, 234, 248, .2); 
 }
