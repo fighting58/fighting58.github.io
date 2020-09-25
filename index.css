@@ -19,7 +19,7 @@ a:hover {
 
 body{
     font-size: 4rem;
-    background: url("image/bg.jpeg") no-repeat center center fixed; 
+    background: url('./Image/bg.jpeg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
