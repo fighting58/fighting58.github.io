@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://fighting58.github.io/author/fighting58/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://fighting58.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-01-07T22:10:31+09:00</updated>
+  <id>https://fighting58.github.io/author/fighting58/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">IT Technical Training | </title>
+  
+
+  
+    <subtitle>IT기반기술교육 블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">python post</title>
+      <link href="https://fighting58.github.io/python-post2" rel="alternate" type="text/html" title="python post" />
+      <published>2022-01-06T19:00:00+09:00</published>
+      <updated>2022-01-06T19:00:00+09:00</updated>
+      <id>https://fighting58.github.io/python-post2</id>
+      <content type="html" xml:base="https://fighting58.github.io/python-post2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It’s my Python page — TEST…
+2nd test…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kim Byoung-woo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 It’s my Python page — TEST… 2nd test…</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">works post</title>
+      <link href="https://fighting58.github.io/works-post1" rel="alternate" type="text/html" title="works post" />
+      <published>2022-01-05T19:00:00+09:00</published>
+      <updated>2022-01-05T19:00:00+09:00</updated>
+      <id>https://fighting58.github.io/works-post1</id>
+      <content type="html" xml:base="https://fighting58.github.io/works-post1">&lt;p&gt;It’s my Works page — TEST…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kim Byoung-woo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="works" />
+      
+
+      
+        <summary type="html">It’s my Works page — TEST…</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">python post</title>
+      <link href="https://fighting58.github.io/python-post1" rel="alternate" type="text/html" title="python post" />
+      <published>2022-01-05T19:00:00+09:00</published>
+      <updated>2022-01-05T19:00:00+09:00</updated>
+      <id>https://fighting58.github.io/python-post1</id>
+      <content type="html" xml:base="https://fighting58.github.io/python-post1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kim Byoung-woo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 It’s my Python page — TEST…</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">life post</title>
+      <link href="https://fighting58.github.io/life-post1" rel="alternate" type="text/html" title="life post" />
+      <published>2022-01-05T19:00:00+09:00</published>
+      <updated>2022-01-05T19:00:00+09:00</updated>
+      <id>https://fighting58.github.io/life-post1</id>
+      <content type="html" xml:base="https://fighting58.github.io/life-post1">&lt;p&gt;It’s my Life page — TEST…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kim Byoung-woo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="life" />
+      
+
+      
+        <summary type="html">It’s my Life page — TEST…</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
