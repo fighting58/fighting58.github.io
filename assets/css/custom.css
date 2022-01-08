@@ -1,3 +1,18 @@
+:root {
+    /* Colours */
+    --blue: #3eb0ef;
+    --green: #a4d037;
+    --purple: #ad26b4;
+    --yellow: #fecd35;
+    --red: #f05230;
+    --darkgrey: #15171A;
+    --midgrey: #738a94;
+    --lightgrey: #c5d2d9;
+    --whitegrey: #e5eff5;
+    --pink: #fa3a57;
+    --brown: #a3821a;
+}
+
 /* Search 결과화면을 위한 CSS 설정 시작 */
 ul.mylist li, ol.mylist li {
     padding: 5px 0px 5px 5px;
@@ -206,14 +221,14 @@ span.lecture-reference {
     border-bottom: 0px solid #efefef;
     font-size: 18px;
     font-weight: bold;
-    color: #0e16ce
+    color: #0e16ce;
 }
 
 /* All Tags 화면을 위한 폰트 크기 설정 custom css */
 .alltags {
     font-size: 18px;
     font-weight: bold;
-    color: #ce112a
+    color: #ce112a;
 }
 
 
@@ -273,9 +288,8 @@ ul.lecture-reference li:before {
 
 /* 메뉴 표현을 위한 CSS */
 
-/*
-   DL Menu In/Out
-   ========================================================================== */
+/*DL Menu In/Out*/
+/*========================================================================== */
 @-webkit-keyframes MenuAnimOut {
     100% {
         -webkit-transform: translateZ(300px);
@@ -451,7 +465,7 @@ ul.lecture-reference li:before {
     position: absolute;
     top: 0;
     line-height: 50px;
-    font-family: "fontawesome";
+    font-family: "FontAwesome";
     color: #fff;
     speak: none;
     -webkit-font-smoothing: antialiased;
@@ -504,13 +518,13 @@ ul.lecture-reference li:before {
 .dl-menuwrapper li .dl-submenu {
     display: none; }
 
-/*
-When a submenu is opened, we will hide all li siblings.
-For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link.
-The opened submenu will get the class "dl-subviewopen".
-All this is done for any sub-level being entered.
-*/
+
+/*When a submenu is opened, we will hide all li siblings.*/
+/*For that we give a class to the parent menu called "dl-subview".*/
+/*We also hide the submenu link.*/
+/*The opened submenu will get the class "dl-subviewopen".*/
+/*All this is done for any sub-level being entered.*/
+
 .dl-menu.dl-subview li,
 .dl-menu.dl-subview li.dl-subviewopen > a,
 .dl-menu.dl-subview li.dl-subview > a {

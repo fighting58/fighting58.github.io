@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://fighting58.github.io/author/fighting58/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://fighting58.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-01-07T22:10:31+09:00</updated>
+  <updated>2022-01-09T05:31:33+09:00</updated>
   <id>https://fighting58.github.io/author/fighting58/feed.xml</id>
 
   
@@ -12,11 +12,11 @@
   
 
   
-    <title type="html">IT Technical Training | </title>
+    <title type="html">Codiposit | </title>
   
 
   
-    <subtitle>IT기반기술교육 블로그</subtitle>
+    <subtitle>일상의 코딩 저장소</subtitle>
   
 
   
@@ -32,18 +32,12 @@
 
   
     <entry>
-      <title type="html">python post</title>
-      <link href="https://fighting58.github.io/python-post2" rel="alternate" type="text/html" title="python post" />
-      <published>2022-01-06T19:00:00+09:00</published>
-      <updated>2022-01-06T19:00:00+09:00</updated>
-      <id>https://fighting58.github.io/python-post2</id>
-      <content type="html" xml:base="https://fighting58.github.io/python-post2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It’s my Python page — TEST…
-2nd test…&lt;/p&gt;</content>
+      <title type="html">life post2</title>
+      <link href="https://fighting58.github.io/life-post5" rel="alternate" type="text/html" title="life post2" />
+      <published>2022-01-07T19:00:00+09:00</published>
+      <updated>2022-01-07T19:00:00+09:00</updated>
+      <id>https://fighting58.github.io/life-post5</id>
+      <content type="html" xml:base="https://fighting58.github.io/life-post5">&lt;p&gt;It’s my Life page4 — TEST…&lt;/p&gt;</content>
 
       
       
@@ -60,11 +54,212 @@
       
 
       
+        <category term="life" />
+      
+
+      
+        <summary type="html">It’s my Life page4 — TEST…</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">life post1</title>
+      <link href="https://fighting58.github.io/life-post4" rel="alternate" type="text/html" title="life post1" />
+      <published>2022-01-07T01:00:00+09:00</published>
+      <updated>2022-01-07T01:00:00+09:00</updated>
+      <id>https://fighting58.github.io/life-post4</id>
+      <content type="html" xml:base="https://fighting58.github.io/life-post4">&lt;p&gt;It’s my Life page4 — TEST…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kim Byoung-woo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="life" />
+      
+
+      
+        <summary type="html">It’s my Life page4 — TEST…</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">python post</title>
+      <link href="https://fighting58.github.io/python-post2" rel="alternate" type="text/html" title="python post" />
+      <published>2022-01-06T19:00:00+09:00</published>
+      <updated>2022-01-06T19:00:00+09:00</updated>
+      <id>https://fighting58.github.io/python-post2</id>
+      <content type="html" xml:base="https://fighting58.github.io/python-post2">&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;TEST CATEGORY&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post2&quot; target=&quot;_blank&quot; title=&quot;python post&quot;&gt;python post&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post2&quot; target=&quot;_self&quot; title=&quot;python post&quot;&gt;category 1&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post3&quot; target=&quot;_blank&quot; title=&quot;python test 3&quot;&gt;python test 3&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post3&quot; target=&quot;_self&quot; title=&quot;python test 3&quot;&gt;category 2&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;p&gt;2nd test…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kim Byoung-woo</name>
+        
+        
+      </author>
+
+      
+        <category term="{&quot;title&quot;=&gt;&quot;TEST CATEGORY&quot;, &quot;desc&quot;=&gt;&quot;category 1&quot;}" />
+      
+
+      
         <category term="python" />
       
 
       
-        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 It’s my Python page — TEST… 2nd test…</summary>
+        <summary type="html">TEST CATEGORY category 1 category 2 It’s my Python page — TEST… 2nd test…</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">python test 3</title>
+      <link href="https://fighting58.github.io/python-post3" rel="alternate" type="text/html" title="python test 3" />
+      <published>2022-01-05T20:00:00+09:00</published>
+      <updated>2022-01-05T20:00:00+09:00</updated>
+      <id>https://fighting58.github.io/python-post3</id>
+      <content type="html" xml:base="https://fighting58.github.io/python-post3">&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;TEST CATEGORY&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post2&quot; target=&quot;_blank&quot; title=&quot;python post&quot;&gt;python post&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post2&quot; target=&quot;_self&quot; title=&quot;python post&quot;&gt;category 1&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post3&quot; target=&quot;_blank&quot; title=&quot;python test 3&quot;&gt;python test 3&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post3&quot; target=&quot;_self&quot; title=&quot;python test 3&quot;&gt;category 2&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python page — TEST333…&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kim Byoung-woo</name>
+        
+        
+      </author>
+
+      
+        <category term="{&quot;title&quot;=&gt;&quot;TEST CATEGORY&quot;, &quot;desc&quot;=&gt;&quot;category 2&quot;}" />
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">TEST CATEGORY category 1 category 2 It’s my Python page — TEST333…</summary>
       
 
       
@@ -106,17 +301,90 @@
     </entry>
   
     <entry>
-      <title type="html">python post</title>
-      <link href="https://fighting58.github.io/python-post1" rel="alternate" type="text/html" title="python post" />
+      <title type="html">python test code2</title>
+      <link href="https://fighting58.github.io/python-post4" rel="alternate" type="text/html" title="python test code2" />
       <published>2022-01-05T19:00:00+09:00</published>
       <updated>2022-01-05T19:00:00+09:00</updated>
-      <id>https://fighting58.github.io/python-post1</id>
-      <content type="html" xml:base="https://fighting58.github.io/python-post1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;</content>
+      <id>https://fighting58.github.io/python-post4</id>
+      <content type="html" xml:base="https://fighting58.github.io/python-post4">&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;Second Title&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post4&quot; target=&quot;_blank&quot; title=&quot;python test code2&quot;&gt;python test code2&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post4&quot; target=&quot;_self&quot; title=&quot;python test code2&quot;&gt;test2&lt;/a&gt;&lt;/li&gt;
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;# -*- coding: utf-8 -*-
+
+&amp;quot;&amp;quot;&amp;quot;
+Little script that replaces comment characters to html,
+found in the *.hbs files.
+&amp;quot;&amp;quot;&amp;quot;
+
+import os
+import glob
+
+if __name__ == &amp;#39;__main__&amp;#39;:
+
+    os.chdir(os.path.join(os.environ[&amp;#39;HOME&amp;#39;],
+                          &amp;quot;Downloads&amp;quot;, &amp;quot;Casper-master&amp;quot;))
+    for filename in glob.glob(&amp;quot;*.hbs&amp;quot;):
+        print(filename)
+
+        # Read in the file
+        with open(filename, &amp;#39;r&amp;#39;) as infile :
+          filedata = infile.read()
+
+        # Replace the target string
+        # Replacing comments
+        filedata = filedata.replace(&amp;#39;{{!--&amp;#39;, &amp;#39;&amp;lt;!--&amp;#39;)
+        filedata = filedata.replace(&amp;#39;--}}&amp;#39;, &amp;#39;--&amp;gt;&amp;#39;)
+
+        # Write the file out again
+        with open(filename, &amp;#39;w&amp;#39;) as outfile:
+          outfile.write(filedata)
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/fighting58/429d29bd4c1cf480fe0e9fcb402bbf2b.js&quot;&gt; &lt;/script&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       
@@ -130,6 +398,8 @@
         
       </author>
 
+      
+        <category term="{&quot;title&quot;=&gt;&quot;Second Title&quot;, &quot;desc&quot;=&gt;&quot;test2&quot;}" />
       
 
       
@@ -137,41 +407,7 @@
       
 
       
-        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 It’s my Python page — TEST…</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">life post</title>
-      <link href="https://fighting58.github.io/life-post1" rel="alternate" type="text/html" title="life post" />
-      <published>2022-01-05T19:00:00+09:00</published>
-      <updated>2022-01-05T19:00:00+09:00</updated>
-      <id>https://fighting58.github.io/life-post1</id>
-      <content type="html" xml:base="https://fighting58.github.io/life-post1">&lt;p&gt;It’s my Life page — TEST…&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kim Byoung-woo</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="life" />
-      
-
-      
-        <summary type="html">It’s my Life page — TEST…</summary>
+        <summary type="html">Second Title test2 It’s my Python page — TEST…</summary>
       
 
       

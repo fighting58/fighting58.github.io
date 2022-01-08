@@ -1,27 +1,174 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://fighting58.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fighting58.github.io/" rel="alternate" type="text/html" /><updated>2022-01-07T22:10:31+09:00</updated><id>https://fighting58.github.io/feed.xml</id><title type="html">IT Technical Training</title><subtitle>IT기반기술교육 블로그</subtitle><entry><title type="html">python post</title><link href="https://fighting58.github.io/python-post2" rel="alternate" type="text/html" title="python post" /><published>2022-01-06T19:00:00+09:00</published><updated>2022-01-06T19:00:00+09:00</updated><id>https://fighting58.github.io/python-post2</id><content type="html" xml:base="https://fighting58.github.io/python-post2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It’s my Python page — TEST…
-2nd test…&lt;/p&gt;</content><author><name>Kim Byoung-woo</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 It’s my Python page — TEST… 2nd test…</summary></entry><entry><title type="html">works post</title><link href="https://fighting58.github.io/works-post1" rel="alternate" type="text/html" title="works post" /><published>2022-01-05T19:00:00+09:00</published><updated>2022-01-05T19:00:00+09:00</updated><id>https://fighting58.github.io/works-post1</id><content type="html" xml:base="https://fighting58.github.io/works-post1">&lt;p&gt;It’s my Works page — TEST…&lt;/p&gt;</content><author><name>Kim Byoung-woo</name></author><category term="works" /><summary type="html">It’s my Works page — TEST…</summary></entry><entry><title type="html">life post</title><link href="https://fighting58.github.io/life-post1" rel="alternate" type="text/html" title="life post" /><published>2022-01-05T19:00:00+09:00</published><updated>2022-01-05T19:00:00+09:00</updated><id>https://fighting58.github.io/life-post1</id><content type="html" xml:base="https://fighting58.github.io/life-post1">&lt;p&gt;It’s my Life page — TEST…&lt;/p&gt;</content><author><name>Kim Byoung-woo</name></author><category term="life" /><summary type="html">It’s my Life page — TEST…</summary></entry><entry><title type="html">python post</title><link href="https://fighting58.github.io/python-post1" rel="alternate" type="text/html" title="python post" /><published>2022-01-05T19:00:00+09:00</published><updated>2022-01-05T19:00:00+09:00</updated><id>https://fighting58.github.io/python-post1</id><content type="html" xml:base="https://fighting58.github.io/python-post1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;</content><author><name>Kim Byoung-woo</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 It’s my Python page — TEST…</summary></entry><entry><title type="html">Welcome to Ghost</title><link href="https://fighting58.github.io/welcome" rel="alternate" type="text/html" title="Welcome to Ghost" /><published>2017-07-27T19:00:00+09:00</published><updated>2017-07-27T19:00:00+09:00</updated><id>https://fighting58.github.io/welcome</id><content type="html" xml:base="https://fighting58.github.io/welcome">&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://fighting58.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fighting58.github.io/" rel="alternate" type="text/html" /><updated>2022-01-09T05:31:33+09:00</updated><id>https://fighting58.github.io/feed.xml</id><title type="html">Codiposit</title><subtitle>일상의 코딩 저장소</subtitle><entry><title type="html">life post2</title><link href="https://fighting58.github.io/life-post5" rel="alternate" type="text/html" title="life post2" /><published>2022-01-07T19:00:00+09:00</published><updated>2022-01-07T19:00:00+09:00</updated><id>https://fighting58.github.io/life-post5</id><content type="html" xml:base="https://fighting58.github.io/life-post5">&lt;p&gt;It’s my Life page4 — TEST…&lt;/p&gt;</content><author><name>Kim Byoung-woo</name></author><category term="life" /><summary type="html">It’s my Life page4 — TEST…</summary></entry><entry><title type="html">life post1</title><link href="https://fighting58.github.io/life-post4" rel="alternate" type="text/html" title="life post1" /><published>2022-01-07T01:00:00+09:00</published><updated>2022-01-07T01:00:00+09:00</updated><id>https://fighting58.github.io/life-post4</id><content type="html" xml:base="https://fighting58.github.io/life-post4">&lt;p&gt;It’s my Life page4 — TEST…&lt;/p&gt;</content><author><name>Kim Byoung-woo</name></author><category term="life" /><summary type="html">It’s my Life page4 — TEST…</summary></entry><entry><title type="html">python post</title><link href="https://fighting58.github.io/python-post2" rel="alternate" type="text/html" title="python post" /><published>2022-01-06T19:00:00+09:00</published><updated>2022-01-06T19:00:00+09:00</updated><id>https://fighting58.github.io/python-post2</id><content type="html" xml:base="https://fighting58.github.io/python-post2">&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
 
-&lt;p&gt;We know that first impressions are important, so we’ve populated your new site with some initial &lt;strong&gt;Getting Started&lt;/strong&gt; posts that will help you get familiar with everything in no time. This is the first one!&lt;/p&gt;
 
-&lt;h3 id=&quot;there-are-a-few-things-that-you-should-know-up-front&quot;&gt;There are a few things that you should know up-front:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That’s who it works best for. If you’re using Ghost for some other purpose, that’s fine too - but it might not be the best choice for you.&lt;/li&gt;
-  &lt;li&gt;The entire platform can be modified and customized to suit your needs, which is very powerful, but doing so &lt;strong&gt;does&lt;/strong&gt; require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.&lt;/li&gt;
-  &lt;li&gt;For the best experience we recommend downloading the Ghost Desktop App for your computer, which is the best way to access your Ghost site on a desktop device.&lt;/li&gt;
-&lt;/ol&gt;
 
-&lt;p&gt;Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our &lt;a href=&quot;https://ghost.org/pricing&quot;&gt;Ghost(Pro)&lt;/a&gt; service, and every penny we make is re-invested into funding further development of free, open source technology for modern journalism.&lt;/p&gt;
 
-&lt;p&gt;The main thing you’ll want to read about next is probably: &lt;a href=&quot;https://demo.ghost.io/the-editor/&quot;&gt;the Ghost editor&lt;/a&gt;.&lt;/p&gt;
+    
+    
 
-&lt;p&gt;Once you’re done reading, you can simply delete the default &lt;strong&gt;Ghost&lt;/strong&gt; user from your team to remove all of these introductory posts!&lt;/p&gt;</content><author><name>ghost</name></author><category term="Getting started" /><summary type="html">Hey! Welcome to Ghost, it’s great to have you :)</summary></entry></feed>
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;TEST CATEGORY&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post2&quot; target=&quot;_blank&quot; title=&quot;python post&quot;&gt;python post&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post2&quot; target=&quot;_self&quot; title=&quot;python post&quot;&gt;category 1&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post3&quot; target=&quot;_blank&quot; title=&quot;python test 3&quot;&gt;python test 3&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post3&quot; target=&quot;_self&quot; title=&quot;python test 3&quot;&gt;category 2&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;p&gt;2nd test…&lt;/p&gt;</content><author><name>Kim Byoung-woo</name></author><category term="{&quot;title&quot;=&gt;&quot;TEST CATEGORY&quot;, &quot;desc&quot;=&gt;&quot;category 1&quot;}" /><category term="python" /><summary type="html">TEST CATEGORY category 1 category 2 It’s my Python page — TEST… 2nd test…</summary></entry><entry><title type="html">python test 3</title><link href="https://fighting58.github.io/python-post3" rel="alternate" type="text/html" title="python test 3" /><published>2022-01-05T20:00:00+09:00</published><updated>2022-01-05T20:00:00+09:00</updated><id>https://fighting58.github.io/python-post3</id><content type="html" xml:base="https://fighting58.github.io/python-post3">&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;TEST CATEGORY&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post2&quot; target=&quot;_blank&quot; title=&quot;python post&quot;&gt;python post&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post2&quot; target=&quot;_self&quot; title=&quot;python post&quot;&gt;category 1&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post3&quot; target=&quot;_blank&quot; title=&quot;python test 3&quot;&gt;python test 3&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post3&quot; target=&quot;_self&quot; title=&quot;python test 3&quot;&gt;category 2&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python page — TEST333…&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Kim Byoung-woo</name></author><category term="{&quot;title&quot;=&gt;&quot;TEST CATEGORY&quot;, &quot;desc&quot;=&gt;&quot;category 2&quot;}" /><category term="python" /><summary type="html">TEST CATEGORY category 1 category 2 It’s my Python page — TEST333…</summary></entry><entry><title type="html">python test code2</title><link href="https://fighting58.github.io/python-post4" rel="alternate" type="text/html" title="python test code2" /><published>2022-01-05T19:00:00+09:00</published><updated>2022-01-05T19:00:00+09:00</updated><id>https://fighting58.github.io/python-post4</id><content type="html" xml:base="https://fighting58.github.io/python-post4">&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;Second Title&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post4&quot; target=&quot;_blank&quot; title=&quot;python test code2&quot;&gt;python test code2&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post4&quot; target=&quot;_self&quot; title=&quot;python test code2&quot;&gt;test2&lt;/a&gt;&lt;/li&gt;
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;# -*- coding: utf-8 -*-
+
+&amp;quot;&amp;quot;&amp;quot;
+Little script that replaces comment characters to html,
+found in the *.hbs files.
+&amp;quot;&amp;quot;&amp;quot;
+
+import os
+import glob
+
+if __name__ == &amp;#39;__main__&amp;#39;:
+
+    os.chdir(os.path.join(os.environ[&amp;#39;HOME&amp;#39;],
+                          &amp;quot;Downloads&amp;quot;, &amp;quot;Casper-master&amp;quot;))
+    for filename in glob.glob(&amp;quot;*.hbs&amp;quot;):
+        print(filename)
+
+        # Read in the file
+        with open(filename, &amp;#39;r&amp;#39;) as infile :
+          filedata = infile.read()
+
+        # Replace the target string
+        # Replacing comments
+        filedata = filedata.replace(&amp;#39;{{!--&amp;#39;, &amp;#39;&amp;lt;!--&amp;#39;)
+        filedata = filedata.replace(&amp;#39;--}}&amp;#39;, &amp;#39;--&amp;gt;&amp;#39;)
+
+        # Write the file out again
+        with open(filename, &amp;#39;w&amp;#39;) as outfile:
+          outfile.write(filedata)
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/fighting58/429d29bd4c1cf480fe0e9fcb402bbf2b.js&quot;&gt; &lt;/script&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Kim Byoung-woo</name></author><category term="{&quot;title&quot;=&gt;&quot;Second Title&quot;, &quot;desc&quot;=&gt;&quot;test2&quot;}" /><category term="python" /><summary type="html">Second Title test2 It’s my Python page — TEST…</summary></entry><entry><title type="html">works post</title><link href="https://fighting58.github.io/works-post1" rel="alternate" type="text/html" title="works post" /><published>2022-01-05T19:00:00+09:00</published><updated>2022-01-05T19:00:00+09:00</updated><id>https://fighting58.github.io/works-post1</id><content type="html" xml:base="https://fighting58.github.io/works-post1">&lt;p&gt;It’s my Works page — TEST…&lt;/p&gt;</content><author><name>Kim Byoung-woo</name></author><category term="works" /><summary type="html">It’s my Works page — TEST…</summary></entry></feed>

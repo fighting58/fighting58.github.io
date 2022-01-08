@@ -20,6 +20,14 @@
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
     <!-- custom.css-->
     <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- web font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <!-- syntax.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- monokai.css for gist -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/monokai.css" />
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -36,13 +44,13 @@
     <![endif]-->
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="IT기반기술교육 블로그" />
-    <link rel="shortcut icon" href="https://fighting58.github.io/assets/built/images/favicon.jpg" type="image/png" />
+    <meta name="description" content="일상의 코딩 저장소" />
+    <link rel="shortcut icon" href="https://fighting58.github.io/assets/built/images/favicon.png" type="image/png" />
     <link rel="canonical" href="https://fighting58.github.io/works-post1" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
-    <meta property="og:site_name" content="IT Technical Training" />
+    <meta property="og:site_name" content="Codiposit" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="works post" />
     <meta property="og:description" content="It’s my Works page — TEST…
@@ -61,7 +69,7 @@
     <meta name="twitter:url" content="https://fighting58.github.io/" />
     <meta name="twitter:image" content="https://fighting58.github.io/assets/built/images/design.jpg" />
     <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="IT Technical Training" />
+    <meta name="twitter:data1" content="Codiposit" />
     <meta name="twitter:label2" content="Filed under" />
     <meta name="twitter:data2" content="Works" />
     <meta name="twitter:site" content="@" />
@@ -75,7 +83,7 @@
     "@type": "Website",
     "publisher": {
         "@type": "Organization",
-        "name": "IT Technical Training",
+        "name": "Codiposit",
         "logo": "https://fighting58.github.io/"
     },
     "url": "https://fighting58.github.io/works-post1",
@@ -122,7 +130,7 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="https://fighting58.github.io/">IT Technical Training</a>
+                <a class="site-nav-logo" href="https://fighting58.github.io/">Codiposit</a>
             
         
         
@@ -148,7 +156,7 @@ into the {body} of the default.hbs template -->
             
         </div>
         
-            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+            <a class="subscribe-button" href="#subscribe">Search</a>
         
     </div>
 </nav>
@@ -194,18 +202,27 @@ into the {body} of the default.hbs template -->
             <!-- Email subscribe form at the bottom of the page -->
 <!--            -->
 <!--                <section class="subscribe-form">-->
-<!--                    <h3 class="subscribe-form-title">Subscribe to IT Technical Training</h3>-->
+<!--                    <h3 class="subscribe-form-title">Subscribe to Codiposit</h3>-->
 <!--                    <p>Get the latest posts delivered right to your inbox</p>-->
-<!--                    <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+<!--                    <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+        <input class="subscribe-email" onkeyup="myFunc()"
+               id="searchtext" type="text" name="searchtext"
+               placeholder="Search..." />
     </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
--->
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>-->
 <!--                </section>-->
 <!--            -->
 
@@ -247,7 +264,7 @@ into the {body} of the default.hbs template -->
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
-                            s.src = 'https://xxxxxxxx.disqus.com/embed.js';
+                            s.src = 'https://fighting58.disqus.com/embed.js';
                             s.setAttribute('data-timestamp', +new Date());
                             (d.head || d.body).appendChild(s);
                         })();
@@ -277,12 +294,25 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/python-post2">
+            <a class="post-card-image-link" href="/python-post3">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/writing.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-post2">
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            <a class="post-card-content-link" href="/python-post3">
                 <header class="post-card-header">
                     
                         
@@ -292,17 +322,55 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">python post</h2>
+                    <h2 class="post-card-title">python test 3</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>Python 강좌는 여러 절로 구성되어 있습니다. 
+                        <p>
 
-    Python 강좌(1) - Python 기본
-    Python 강좌(2) - Python 제어문
 
-It’s my Python page — TEST…
-2nd test…
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        
+        TEST CATEGORY
+        
+            
+                
+            
+            category 1
+                
+            
+                
+            
+            category 2
+                
+            
+                
+            
+        
+        
+        
+    
+
+    
+    
+
+    
+
+
+
+It’s my Python page — TEST333…
+
 </p>
                     
                 </section>
@@ -336,12 +404,12 @@ It’s my Python page — TEST…
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/python-post1">
+            <a class="post-card-image-link" href="/python-post4">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/writing.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-post1">
+            <a class="post-card-content-link" href="/python-post4">
                 <header class="post-card-header">
                     
                         
@@ -351,16 +419,52 @@ It’s my Python page — TEST…
                         
                     
 
-                    <h2 class="post-card-title">python post</h2>
+                    <h2 class="post-card-title">python test code2</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>Python 강좌는 여러 절로 구성되어 있습니다. 
+                        <p>
 
-    Python 강좌(1) - Python 기본
-    Python 강좌(2) - Python 제어문
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        
+        Second Title
+        
+            
+                
+            
+                
+            
+                
+            
+            test2
+                
+            
+        
+        
+        
+    
+
+    
+    
+
+    
+
+
 
 It’s my Python page — TEST…
+
 </p>
                     
                 </section>
@@ -397,7 +501,7 @@ It’s my Python page — TEST…
     <div class="floating-header-logo">
         <a href="https://fighting58.github.io/">
             
-            <span>IT Technical Training</span>
+            <span>Codiposit</span>
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
@@ -437,7 +541,7 @@ It’s my Python page — TEST…
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="https://fighting58.github.io/">IT Technical Training</a> &copy; 2022</section>
+                <section class="copyright"><a href="https://fighting58.github.io/">Codiposit</a> &copy; 2022</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
@@ -454,24 +558,34 @@ It’s my Python page — TEST…
 
     <!-- The big email subscribe modal content -->
     
-        <div id="subscribe" class="subscribe-overlay">
-            <a class="subscribe-overlay-close" href="#"></a>
-            <div class="subscribe-overlay-content">
-                
-                <h1 class="subscribe-overlay-title">Subscribe to IT Technical Training</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+    <div id="subscribe" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            
+            <h1 class="subscribe-overlay-title">Search Codiposit</h1>
+            <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+            <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+        <input class="subscribe-email" onkeyup="myFunc()"
+               id="searchtext" type="text" name="searchtext"
+               placeholder="Search..." />
     </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
-
-            </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
         </div>
+    </div>
     
 
     <!-- highlight.js -->

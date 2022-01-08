@@ -2,27 +2,153 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
-    <description>IT기반기술교육 블로그</description>
+    <description>일상의 코딩 저장소</description>
     <link>
     https://fighting58.github.io</link>
     
       
       <item>
+        <title>life post2</title>
+        
+          <description>&lt;p&gt;It’s my Life page4 — TEST…&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 07 Jan 2022 19:00:00 +0900</pubDate>
+        <link>
+        https://fighting58.github.io/life-post5</link>
+        <guid isPermaLink="true">https://fighting58.github.io/life-post5</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>life post1</title>
+        
+          <description>&lt;p&gt;It’s my Life page4 — TEST…&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 07 Jan 2022 01:00:00 +0900</pubDate>
+        <link>
+        https://fighting58.github.io/life-post4</link>
+        <guid isPermaLink="true">https://fighting58.github.io/life-post4</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>python post</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It’s my Python page — TEST…
-2nd test…&lt;/p&gt;
+          <description>&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;TEST CATEGORY&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post2&quot; target=&quot;_blank&quot; title=&quot;python post&quot;&gt;python post&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post2&quot; target=&quot;_self&quot; title=&quot;python post&quot;&gt;category 1&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post3&quot; target=&quot;_blank&quot; title=&quot;python test 3&quot;&gt;python test 3&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post3&quot; target=&quot;_self&quot; title=&quot;python test 3&quot;&gt;category 2&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;p&gt;2nd test…&lt;/p&gt;
 </description>
         
         <pubDate>Thu, 06 Jan 2022 19:00:00 +0900</pubDate>
         <link>
         https://fighting58.github.io/python-post2</link>
         <guid isPermaLink="true">https://fighting58.github.io/python-post2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>python test 3</title>
+        
+          <description>&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;TEST CATEGORY&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post2&quot; target=&quot;_blank&quot; title=&quot;python post&quot;&gt;python post&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post2&quot; target=&quot;_self&quot; title=&quot;python post&quot;&gt;category 1&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post3&quot; target=&quot;_blank&quot; title=&quot;python test 3&quot;&gt;python test 3&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post3&quot; target=&quot;_self&quot; title=&quot;python test 3&quot;&gt;category 2&lt;/a&gt;&lt;/li&gt;
+                
+            
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python page — TEST333…&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 05 Jan 2022 20:00:00 +0900</pubDate>
+        <link>
+        https://fighting58.github.io/python-post3</link>
+        <guid isPermaLink="true">https://fighting58.github.io/python-post3</guid>
       </item>
       
     
@@ -42,49 +168,56 @@
     
       
       <item>
-        <title>python post</title>
+        <title>python test code2</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+          <description>&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+        &lt;article&gt;
+        &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;Second Title&lt;/h3&gt;
+        &lt;ul&gt;
+            
+                
+            
+                
+            
+                
+            &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post4&quot; target=&quot;_blank&quot; title=&quot;python test code2&quot;&gt;python test code2&lt;/a&gt;&lt;/li&gt; --&gt;
+            &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;/python-post4&quot; target=&quot;_self&quot; title=&quot;python test code2&quot;&gt;test2&lt;/a&gt;&lt;/li&gt;
+                
+            
+        &lt;/ul&gt;
+        &lt;/article&gt;&lt;!-- /.hentry --&gt;
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
 &lt;p&gt;It’s my Python page — TEST…&lt;/p&gt;
-</description>
-        
-        <pubDate>Wed, 05 Jan 2022 19:00:00 +0900</pubDate>
-        <link>
-        https://fighting58.github.io/python-post1</link>
-        <guid isPermaLink="true">https://fighting58.github.io/python-post1</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>life post</title>
-        
-          <description>&lt;p&gt;It’s my Life page — TEST…&lt;/p&gt;
-</description>
-        
-        <pubDate>Wed, 05 Jan 2022 19:00:00 +0900</pubDate>
-        <link>
-        https://fighting58.github.io/life-post1</link>
-        <guid isPermaLink="true">https://fighting58.github.io/life-post1</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Welcome to Ghost</title>
-        
-          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Jul 2017 19:00:00 +0900</pubDate>
+        <pubDate>Wed, 05 Jan 2022 19:00:00 +0900</pubDate>
         <link>
-        https://fighting58.github.io/welcome</link>
-        <guid isPermaLink="true">https://fighting58.github.io/welcome</guid>
+        https://fighting58.github.io/python-post4</link>
+        <guid isPermaLink="true">https://fighting58.github.io/python-post4</guid>
       </item>
       
     
