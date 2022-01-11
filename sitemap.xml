@@ -4,6 +4,38 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://fighting58.github.io/works2.html</loc>
+        
+        <lastmod>2022-01-11T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://fighting58.github.io/code-sniff.html</loc>
+        
+        <lastmod>2022-01-08T15:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://fighting58.github.io/life-post5.html</loc>
         
         <lastmod>2022-01-07T19:00:00+09:00</lastmod>

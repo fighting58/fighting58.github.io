@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://fighting58.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://fighting58.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-01-11T21:30:51+09:00</updated>
+  <updated>2022-01-11T22:29:24+09:00</updated>
   <id>https://fighting58.github.io/tag/python/feed.xml</id>
 
   
@@ -32,6 +32,76 @@
 
   
     <entry>
+      <title type="html">python code snipp</title>
+      <link href="https://fighting58.github.io/code-sniff" rel="alternate" type="text/html" title="python code snipp" />
+      <published>2022-01-08T15:00:00+09:00</published>
+      <updated>2022-01-08T15:00:00+09:00</updated>
+      <id>https://fighting58.github.io/code-sniff</id>
+      <content type="html" xml:base="https://fighting58.github.io/code-sniff">&lt;div id=&quot;post-subtag-list&quot; class=&quot;subtag article&quot;&gt;
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+        
+    
+
+    
+    
+
+    
+
+&lt;/div&gt;
+
+&lt;p&gt;It’s my Python CODE SNIFPPETS - TEST&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;dest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'test.csv'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2nd test…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kim Byoung-woo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">It’s my Python CODE SNIFPPETS - TEST</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">python post</title>
       <link href="https://fighting58.github.io/python-post2" rel="alternate" type="text/html" title="python post" />
       <published>2022-01-06T19:00:00+09:00</published>
@@ -55,6 +125,8 @@
         &lt;article&gt;
         &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;TEST CATEGORY&lt;/h3&gt;
         &lt;ul&gt;
+            
+                
             
                 
             &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post2&quot; target=&quot;_blank&quot; title=&quot;python post&quot;&gt;python post&lt;/a&gt;&lt;/li&gt; --&gt;
@@ -137,6 +209,8 @@
         &lt;article&gt;
         &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;TEST CATEGORY&lt;/h3&gt;
         &lt;ul&gt;
+            
+                
             
                 
             &lt;!-- &lt;li class=&quot;entry-title&quot;&gt;&lt;a href=&quot;https://fighting58.github.io/python-post2&quot; target=&quot;_blank&quot; title=&quot;python post&quot;&gt;python post&lt;/a&gt;&lt;/li&gt; --&gt;
@@ -222,6 +296,8 @@
         &lt;article&gt;
         &lt;h3 id=&quot;python&quot; class=&quot;tag-heading&quot;&gt;Second Title&lt;/h3&gt;
         &lt;ul&gt;
+            
+                
             
                 
             
