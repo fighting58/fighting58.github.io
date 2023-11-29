@@ -1,0 +1,77 @@
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, bottom;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+}
+
+th, td {
+    border: 1px solid black;
+    height: 4vh;
+    width: 8vw;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+canvas {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tableContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#displayingScore100 {
+    font-size: 5rem;
+    font-weight: bold;
+    animation: blink-effect 0.5s step-end 5;
+}
+
+#displayingScoreOver80 {
+    font-size: 4rem;
+    animation: blink-effect 0.5s step-end 5;
+}
+#displayingScoreUnder80 {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: blink-effect 0.5s step-end 5;
+}
+.buttons {
+    text-align: center;
+}
+
+.calculationItem {
+    font-size: 2rem;
+}
+.red-text {
+    color: red;
+}    
+
+@keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+  }
+
+    
