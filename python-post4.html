@@ -232,38 +232,10 @@ into the {body} of the default.hbs template -->
 
 </div>
 
-<p>It’s my Python page — TEST…</p>
+<p>It’s my JavaScript page — Adder</p>
+<a href ='adder.html'>Adder Test</a>
 
-<noscript><pre># -*- coding: utf-8 -*-
 
-&quot;&quot;&quot;
-Little script that replaces comment characters to html,
-found in the *.hbs files.
-&quot;&quot;&quot;
-
-import os
-import glob
-
-if __name__ == &#39;__main__&#39;:
-
-    os.chdir(os.path.join(os.environ[&#39;HOME&#39;],
-                          &quot;Downloads&quot;, &quot;Casper-master&quot;))
-    for filename in glob.glob(&quot;*.hbs&quot;):
-        print(filename)
-
-        # Read in the file
-        with open(filename, &#39;r&#39;) as infile :
-          filedata = infile.read()
-
-        # Replace the target string
-        # Replacing comments
-        filedata = filedata.replace(&#39;{{!--&#39;, &#39;&lt;!--&#39;)
-        filedata = filedata.replace(&#39;--}}&#39;, &#39;--&gt;&#39;)
-
-        # Write the file out again
-        with open(filename, &#39;w&#39;) as outfile:
-          outfile.write(filedata)
-</pre></noscript>
 <script src="https://gist.github.com/fighting58/429d29bd4c1cf480fe0e9fcb402bbf2b.js"> </script>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
