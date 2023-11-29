@@ -218,17 +218,21 @@ if (score >= 99) {
 }
 
 function setBackgroundImage() {
-const body = document.body;
-const screenWidth = window.innerWidth;
-const screenHeight = window.innerHeight;
+  const body = document.body;
+  const screenWidth = window.innerWidth;
+  const screenHeight = window.innerHeight;
+  const table = document.getElementById('puzzleTable');
+  const tableBottom = table.offseBottom;
 
-if (screenWidth > screenHeight) {
+  if (screenWidth > screenHeight) {
     // 가로형 배경 이미지 설정
     body.style.backgroundImage = 'url("images/pokemon-bulbasaur_landscape.jpg")';
-} else {
+    body.style.backgroundPosition = `center ${tableBottom}+200`
+  } else {
     // 세로형 배경 이미지 설정
     body.style.backgroundImage = 'url("images/pokemon-bulbasaur_portrait.jpg")';
-}
+    body.style.backgroundPosition = `center ${tableBottom}+200`
+  }
 }
 
 window.onload = function() {
