@@ -232,7 +232,7 @@ function setBackgroundImage() {
     // 세로형 배경 이미지 설정
     body.style.backgroundImage = 'url("images/pokemon-bulbasaur_portrait.jpg")';
     // body.style.backgroundPosition = `center ${tableBottom+100}px`;
-    body.style.backgroundPosition = "center bottom"
+    body.style.backgroundPosition = "center bottom";
   }
 }
 
