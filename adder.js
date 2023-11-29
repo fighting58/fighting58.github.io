@@ -14,10 +14,11 @@ for (let i = 0; i < 6; i++) {
     const cell = row.insertCell();
     if (i === 0 && j === 0) {
         cell.textContent = '+';
+        cell.classList.add("operationSymbol")
     } else if (i === 0) {
         let randomNumber;
         do {
-        randomNumber = Math.floor(Math.random() * 9) + 1;
+        randomNumber =randomIntFromInterval(1,9);
         } while (usedNumbersRow.has(randomNumber));
         usedNumbersRow.add(randomNumber);
         cell.textContent = randomNumber;
@@ -25,7 +26,7 @@ for (let i = 0; i < 6; i++) {
     } else if (j === 0) {
         let randomNumber;
         do {
-        randomNumber = Math.floor(Math.random() * 9) + 1;
+        randomNumber = randomIntFromInterval(1,9);
         } while (usedNumbersCol.has(randomNumber));
         usedNumbersCol.add(randomNumber);
         cell.textContent = randomNumber;
@@ -38,6 +39,10 @@ for (let i = 0; i < 6; i++) {
     }
 }
 }
+
+function randomIntFromInterval(min, max) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min)
+  }
 
 function clearTable() {
 const table = document.getElementById('puzzleTable');
