@@ -227,11 +227,11 @@ function setBackgroundImage() {
   if (screenWidth > screenHeight) {
     // 가로형 배경 이미지 설정
     body.style.backgroundImage = 'url("images/pokemon-bulbasaur_landscape.jpg")';
-    body.style.backgroundPosition = `center ${tableBottom}+200px`
+    body.style.backgroundPosition = `center ${tableBottom}+200px`;
   } else {
     // 세로형 배경 이미지 설정
     body.style.backgroundImage = 'url("images/pokemon-bulbasaur_portrait.jpg")';
-    body.style.backgroundPosition = `center ${tableBottom}+100px`
+    body.style.backgroundPosition = `center ${tableBottom}+100px`;
   }
 }
 
