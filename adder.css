@@ -68,7 +68,7 @@ canvas {
 }
 
 .buttons {
-    height: 40px;
+    height: 50px;
     text-align: center;  
     align-content: center;
     display: flexbox;    
