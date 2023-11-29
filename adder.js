@@ -210,7 +210,7 @@ function handleClick(event) {
 // Add event listener for mouse click
 canvas.addEventListener("customclick", handleClick);
 
-if (score >= 1) {
+if (score >= 99) {
     simulateClickEvents();
     animateParticles();
 }
