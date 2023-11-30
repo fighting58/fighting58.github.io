@@ -28,7 +28,7 @@ nav {
     display: flex;
     flex: 4;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
 }
 .nav-item {
     font-size: 2rem;
