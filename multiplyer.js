@@ -225,12 +225,13 @@ function setBackgroundImage() {
     } else {
         // 세로형 배경 이미지 설정
         body.style.backgroundImage = 'url("images/bulbasaur_150x128.png")';
+        body.style.visibility = false;
         body.style.backgroundPosition = `center ${scoreboardTop + scoreboardHeight - 80}px`
     }
 }
 
 window.onload = function() {
-generatePuzzle();
+    generatePuzzle();
 };
 
 setBackgroundImage();

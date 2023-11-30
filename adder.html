@@ -7,9 +7,27 @@
     <title>Puzzle Program</title>
   </head>
   <body>
+      <nav>
+        <ul class="menu">
+          <li class="nav-title" id="nav-title">더 하 기</li>
+          <ul class="nav-items">
+            <li class="nav-item">add</li>
+            <li class="nav-item">sub</li>
+            <li class="nav-item">mul</li>
+            <li class="nav-item">div</li>
+          </ul>
+          <li class="setting-menu" id="setting-button"><span id="setting-button-toggle"> +</span> 설정</li>
+        </ul>
+      </nav>
       <div class="flex-container">
         <div id="tableContainer" class="flex-item">
-          <div><H1>더 하 기</H1></div>
+          <!-- <div>
+            <h1 id ="operation">더 하 기</h1>
+          </div> -->
+          <div id="settings">
+              <p class="setting-item">가로 열(값의 범위): <input id="col_min_value" class="env-var" value="1"> &LessFullEqual; x &LessFullEqual; <input id="col_max_value" class="env-var" value="9"></p>
+              <p class="setting-item">세로 행(값의 범위): <input id="row_min_value" class="env-var" value="1"> &LessFullEqual; y &LessFullEqual; <input id="row_max_value" class="env-var" value="9"></p> 
+          </div>
           <table id="puzzleTable"></table>
         </div>
         <div class="buttons flex-item">

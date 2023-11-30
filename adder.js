@@ -4,6 +4,12 @@ function generatePuzzle() {
     clearCanvas();
     clearPoints();
 
+    //세팅값 읽어오기(변수 범위)
+    const minColValue = document.getElementById('col_min_value').value;
+    const maxColValue = document.getElementById('col_max_value').value;
+    const minRowValue = document.getElementById('row_min_value').value;
+    const maxRowValue = document.getElementById('row_max_value').value;
+
     // 표 생성
     const table = document.getElementById('puzzleTable');
     const usedNumbersRow = new Set();
@@ -18,17 +24,17 @@ function generatePuzzle() {
             } else if (i === 0) {
                 let randomNumber;
                 do {
-                randomNumber =randomIntFromInterval(1,9);
-                } while (usedNumbersRow.has(randomNumber));
-                usedNumbersRow.add(randomNumber);
+                    randomNumber = randomIntFromInterval(parseInt(minColValue), parseInt(maxColValue));
+                } while (usedNumbersCol.has(randomNumber));
+                usedNumbersCol.add(randomNumber);
                 cell.textContent = randomNumber;
                 cell.classList.add("calculationItem")
             } else if (j === 0) {
                 let randomNumber;
                 do {
-                randomNumber = randomIntFromInterval(1,9);
-                } while (usedNumbersCol.has(randomNumber));
-                usedNumbersCol.add(randomNumber);
+                    randomNumber = randomIntFromInterval(parseInt(minRowValue), parseInt(maxRowValue));
+                } while (usedNumbersRow.has(randomNumber));
+                usedNumbersRow.add(randomNumber);
                 cell.textContent = randomNumber;
                 cell.classList.add("calculationItem")             
             } else {
@@ -111,14 +117,13 @@ function createFireworksEffect(numParticles, score) {
 
     canvas.width = tableWidth;
     canvas.height = tableHeight;
-
     canvas.width = tableWidth;
     canvas.height = tableHeight;
 
     // Position the canvas above the table
     canvas.style.position = "absolute";
-    canvas.style.left = `${tableLeft}px`;
-    canvas.style.top = `${tableTop}px`;
+    canvas.style.left = `${tableLeft/10}rem`;
+    canvas.style.top = `${tableTop/10}rem`;
     canvas.style.zIndex = "2";
     document.body.appendChild(canvas);
 
@@ -230,12 +235,26 @@ function setBackgroundImage() {
     } else {
         // 세로형 배경 이미지 설정
         body.style.backgroundImage = 'url("images/bulbasaur_150x128.png")';
-        body.style.backgroundPosition = `center ${scoreboardTop + scoreboardHeight - 80}px`
+        body.style.backgroundPosition = `center ${(scoreboardTop + scoreboardHeight - 80)/10}rem`
     }
 }
 
+function openSettingBlock() {
+
+    if(document.getElementById('settings').style.display === 'block') {
+        document.getElementById('settings').style.display = 'none';
+        document.getElementById(this.id + '-toggle').innerText = ' +';
+      } else {
+        document.getElementById('settings').style.display = 'block';
+        document.getElementById(this.id + '-toggle').innerText = ' -';
+      }
+}
+
 window.onload = function() {
+    const settingButton = document.getElementById('setting-button')
+
     generatePuzzle();
+    settingButton.addEventListener('click', openSettingBlock)
 };
 
 setBackgroundImage();

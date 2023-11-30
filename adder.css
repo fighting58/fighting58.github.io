@@ -1,3 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    background: #fff;
+    padding: 0 5rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.nav-title {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px #fff;
+    font-weight: bold;
+    margin-bottom: 0.5rem;    
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item {
+    padding: 1rem;
+    position: relative;
+    display: none; 
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;     
+    flex-wrap: nowrap;
+    background: none;
+}
+.menu li {
+    display: block;
+    padding: 1rem 0.5rem 0.2rem 0.5rem;  /* top, right, bottom, left */
+}
+
 body {
     background-repeat: no-repeat;
     background-size: auto;
@@ -6,18 +53,17 @@ body {
 
 table {
     border-collapse: collapse;
-    width: 300px;
-    height: 300px;
+    width: 30rem;
+    height: 30rem;
     margin: 0;
 }
 
 th, td {
     border: 1px solid black;
-    padding: 10px;
-    height: 50px;
-    width: 50px;
+    padding: 1rem;
+    height: 5rem;
+    width: 5rem;
     font-weight: bold;
-    margin: 0;
     padding: 2px;
 }
 
@@ -26,7 +72,7 @@ input {
     height: 100%;
     box-sizing: border-box;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 canvas {
@@ -39,6 +85,7 @@ canvas {
     display: flex;
     flex-direction: column;  
     align-items: center;
+    margin-top: 2rem;
 }
 
 .flex-item {
@@ -46,7 +93,7 @@ canvas {
 }
 
 p > .flex-item  {
-    margin-top: 20px;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -54,52 +101,82 @@ p > .flex-item  {
     text-align: center;    
 }
 
-#displayingScore100 {
-    font-size: 3rem;
-    font-weight: bold;
-    animation: blink-effect100 0.5s step-end 5;
-}
-
-#displayingScoreOver80 {
-    font-size: 3rem;
-    animation: blink-effect 0.5s step-end 5;
-}
-
-#displayingScoreUnder80 {
-    font-size: 3rem;
-    font-weight: bold;
-    animation: blink-effect 0.5s step-end 5;
-}
-
 .buttons {
-    margin-top: 10px;    
+    margin-top: 1rem;    
 }
 
 .button_item {
-    width: 100px;
-    height: 45px;
-    margin: 0 15px;
+    width: 10rem;
+    height: 4rem;
+    margin: 0 1.5rem;
 }
 
 .operationSymbol {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: blue;
 }
 
 .calculationItem {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 .red-text {
     color: red;
 }   
 
 #scoreboard {
-    height: 150px;
-    width: 250px;
-    margin-top: 10PX;
+    height: 15rem;
+    width: 15rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
     text-align: center;   
 }
+
+#displayingScore100 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    animation: blink-effect100 0.5s step-end 5;
+}
+
+#displayingScoreOver80 {
+    font-size: 3.2rem;
+    animation: blink-effect 0.5s step-end 5;
+}
+
+#displayingScoreUnder80 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+#settings {
+    display: none;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 4.5rem;
+    border: 1px solid red;
+}
+
+.setting-item {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.env-var {
+    display: inline;
+    font-size: 0.9rem;
+    width: 4rem;
+    height: 0%;
+}
+
+#setting-button {
+    display: block;
+    padding: 2px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color:rgb(47, 0, 255);
+}
+
 
 @keyframes blink-effect {
     50% {
