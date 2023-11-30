@@ -9,6 +9,7 @@ html {
 }
 
 nav {
+    display: flex;
     background: #fff;
     padding: 0 5rem;
     border-radius: 1rem 1rem 0 0;
@@ -16,6 +17,7 @@ nav {
 
 .nav-title {
     display: inline-block;
+    flex: 2;
     font-size: 2.5rem;
     text-shadow: 0.2rem 0.2rem 0.4rem #fff;
     font-weight: bold;
@@ -25,6 +27,7 @@ nav {
 
 .nav-items {
     display: flex;
+    flex: 4;
     justify-content: space-between;
 }
 .nav-item {
@@ -172,7 +175,7 @@ p > .flex-item  {
 }
 
 #setting-button {
-    display: block;
+    flex: 1;
     padding: 2px;
     font-size: 0.9rem;
     font-weight: bold;
