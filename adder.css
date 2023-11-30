@@ -9,11 +9,9 @@ html {
 }
 
 nav {
-    display: flex;
     background: #fff;
     padding: 0 5rem;
     border-radius: 1rem 1rem 0 0;
-    justify-content: space-between;
 }
 
 .nav-title {
@@ -47,7 +45,6 @@ nav {
     justify-content: space-around;
     align-items: baseline;     
     flex-wrap: nowrap;
-    background: none;
 }
 
 body {
