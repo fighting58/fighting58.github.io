@@ -1,7 +1,8 @@
 
 body {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    background-color: #4fc375;
 }
 
 table {
@@ -55,13 +56,13 @@ p > .flex-item  {
 }
 
 #displayingScore100 {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: bold;
     animation: blink-effect100 0.5s step-end 5;
 }
 
 #displayingScoreOver80 {
-    font-size: 4rem;
+    font-size: 3rem;
     animation: blink-effect 0.5s step-end 5;
 }
 
@@ -72,7 +73,7 @@ p > .flex-item  {
 }
 
 .buttons {
-    margin-top: 20px;    
+    margin-top: 10px;    
 }
 
 .button_item {
@@ -88,11 +89,18 @@ p > .flex-item  {
 }
 
 .calculationItem {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 .red-text {
     color: red;
-}    
+}   
+
+#scoreboard {
+    height: 150px;
+    width: 150px;
+    margin-top: 10PX;
+    text-align: center;   
+}
 
 @keyframes blink-effect {
     50% {
