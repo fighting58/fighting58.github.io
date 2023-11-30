@@ -34,7 +34,7 @@ nav {
     font-size: 2rem;
     padding: 0.5rem;
     display: block; 
-    width: auto;
+    border: 1px solid blue;
 }
 .setting-menu {
     flex: 2;
