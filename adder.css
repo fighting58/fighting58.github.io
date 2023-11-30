@@ -29,14 +29,13 @@ nav {
 
 .nav-items {
     display: flex;
-    flex: 8;
+    flex: 10;
     justify-content: space-around;
     aline-items: baseline;
 }
 .nav-item {
     font-size: 2rem;
-    padding: 1rem;
-    position: relative;
+    padding: 0.5rem;
     display: none; 
     width: auto;
 }
@@ -50,10 +49,6 @@ nav {
     align-items: baseline;     
     flex-wrap: nowrap;
     background: none;
-}
-.menu li {
-    display: block;
-    padding: 1rem 0.5rem 0.2rem 0.5rem;  /* top, right, bottom, left */
 }
 
 body {
