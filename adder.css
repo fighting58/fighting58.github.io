@@ -11,6 +11,7 @@ html {
 nav {
     display: flex;
     background: #fff;
+    aline-items: baseline;
     padding: 0 5rem;
     border-radius: 1rem 1rem 0 0;
 }
@@ -27,16 +28,19 @@ nav {
 
 .nav-items {
     display: flex;
-    flex: 4;
+    flex: 6;
     justify-content: space-between;
 }
 .nav-item {
+    font-size: 2rem;
     padding: 1rem;
     position: relative;
     display: none; 
     width: auto;
 }
-
+.setting-menu {
+    flex: 2;
+}
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -175,7 +179,6 @@ p > .flex-item  {
 }
 
 #setting-button {
-    flex: 1;
     padding: 2px;
     font-size: 0.9rem;
     font-weight: bold;
