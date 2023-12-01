@@ -9,7 +9,7 @@ function generatePuzzle() {
     const maxColValue = document.getElementById('col_max_value').value;
     const minRowValue = document.getElementById('row_min_value').value;
     const maxRowValue = document.getElementById('row_max_value').value;
-    const operator = 'x'
+    const operator = '÷'
 
     // 표 생성
     const table = document.getElementById('puzzleTable');
@@ -24,21 +24,22 @@ function generatePuzzle() {
                 cell.classList.add("operationSymbol")
             } else if (i === 0) {
                 let randomNumber;
+                let randomNumber2;
                 do {
                     randomNumber = randomIntFromInterval(parseInt(minColValue), parseInt(maxColValue));
                 } while (usedNumbersCol.has(randomNumber));
-                usedNumbersCol.add(randomNumber);
-                cell.textContent = randomNumber;
-                cell.classList.add("calculationItem")
-            } else if (j === 0) {
-                let randomNumber;
                 do {
-                    randomNumber = randomIntFromInterval(parseInt(minRowValue), parseInt(maxRowValue));
-                } while (usedNumbersRow.has(randomNumber));
-                usedNumbersRow.add(randomNumber);
-                cell.textContent = randomNumber;
+                    randomNumber2 = randomIntFromInterval(parseInt(minColValue), parseInt(maxColValue));
+                } while (usedNumbersRow.has(randomNumber2));
+                usedNumbersCol.add(randomNumber);
+                usedNumbersRow.add(randomNumber2);
+                cell.textContent = randomNumber * randomNumber2;
+                cell.classList.add("calculationItem")
+            
+            } else if (j === 0) {
+                cell.textContent = [...usedNumbersRow][i-1];
                 cell.classList.add("calculationItem")             
-            } else {
+            } else if (i == j) {
                 const input = document.createElement('input');
                 input.type = 'text';
                 cell.appendChild(input);
@@ -77,19 +78,21 @@ function checkAnswers() {
 
     for (let i = 1; i < table.rows.length; i++) {
         for (let j = 1; j < table.rows[i].cells.length; j++) {
-            const firstRowSum = parseInt(table.rows[i].cells[0].textContent, 10);
-            const firstColSum = parseInt(table.rows[0].cells[j].textContent, 10);
-            const userInput = parseInt(table.rows[i].cells[j].querySelector('input').value, 10);
-            if (userInput !== firstColSum * firstRowSum) {
-                table.rows[i].cells[j].querySelector('input').classList.add('red-text');
-            } else {
-                table.rows[i].cells[j].querySelector('input').classList.remove('red-text');
-                score++;
+            if (i == j) {
+                const firstRowSum = parseInt(table.rows[i].cells[0].textContent, 10);
+                const firstColSum = parseInt(table.rows[0].cells[j].textContent, 10);
+                const userInput = parseInt(table.rows[i].cells[j].querySelector('input').value, 10);
+                if (userInput !== firstColSum / firstRowSum) {
+                    table.rows[i].cells[j].querySelector('input').classList.add('red-text');
+                } else {
+                    table.rows[i].cells[j].querySelector('input').classList.remove('red-text');
+                    score++;
+                }
             }
         }
     }
     const scoreText = document.getElementById('scoreboard');
-    let scorePoint = score * 4;
+    let scorePoint = score * 20;
     let html_score = [`와~~ 굉장해요!! <br> <span id="displayingScore100" blink=True>${scorePoint} 점!!</span>`,
                         `조금만 더 노력하세요~ <br> <span id="displayingScoreOver80">${scorePoint} 점!!</span>`,
                         `집중력이 부족해요.. <br> <span id="displayingScoreUnder80" blink=true>${scorePoint} 점!!</span>`

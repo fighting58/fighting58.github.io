@@ -9,7 +9,7 @@ function generatePuzzle() {
     const maxColValue = document.getElementById('col_max_value').value;
     const minRowValue = document.getElementById('row_min_value').value;
     const maxRowValue = document.getElementById('row_max_value').value;
-    const operator = 'x'
+    const operator = '-'
 
     // 표 생성
     const table = document.getElementById('puzzleTable');
@@ -80,7 +80,7 @@ function checkAnswers() {
             const firstRowSum = parseInt(table.rows[i].cells[0].textContent, 10);
             const firstColSum = parseInt(table.rows[0].cells[j].textContent, 10);
             const userInput = parseInt(table.rows[i].cells[j].querySelector('input').value, 10);
-            if (userInput !== firstColSum * firstRowSum) {
+            if (userInput !== firstColSum - firstRowSum) {
                 table.rows[i].cells[j].querySelector('input').classList.add('red-text');
             } else {
                 table.rows[i].cells[j].querySelector('input').classList.remove('red-text');

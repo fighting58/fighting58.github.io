@@ -9,42 +9,62 @@ html {
 }
 
 nav {
-    background: #fff;
-    padding: 0 5rem;
+    background: #04a54c;
+    padding: 1rem 1rem 0 1rem;
     border-radius: 1rem 1rem 0 0;
+    
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;     
+}
+
+.menu-icon img {
+    width: 2rem;
+    height: 2em;
 }
 
 .nav-title {
-    display: inline-block;
-    flex: 4;
-    font-size: 2.5rem;
-    text-shadow: 0.2rem 0.2rem 0.4rem #fff;
-    font-weight: bold;
-    margin-bottom: 0.5rem;   
+    display: flex;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color:rgb(250, 142, 2);
+    text-shadow: 0.2rem 0.2rem 0.4rem rgb(75, 9, 9);
+    
     align-items: center;
+}
+
+.nav-title img {
+    width: 3rem;
+    height: 3em;
+}
+
+.nav-title span {
+    margin-left: 1rem;
 }
 
 .nav-items {
     display: flex;
-    flex: 4;
     justify-content: space-around;
     align-items: center;
 }
+
 .nav-item {
-    font-size: 2rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
     padding: 0.5rem;
-    display: block; 
-    border: 1px solid blue;
 }
 .setting-menu {
-    flex: 2;
+    text-align: right;    
 }
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;     
-    flex-wrap: nowrap;
+
+li, .setting-menu {
+    list-style-type: none;
 }
 
 body {
@@ -168,14 +188,6 @@ p > .flex-item  {
     display: inline;
     font-size: 0.9rem;
     width: 4rem;
-    height: 0%;
-}
-
-#setting-button {
-    padding: 2px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    color:rgb(47, 0, 255);
 }
 
 

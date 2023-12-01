@@ -9,6 +9,7 @@ function generatePuzzle() {
     const maxColValue = document.getElementById('col_max_value').value;
     const minRowValue = document.getElementById('row_min_value').value;
     const maxRowValue = document.getElementById('row_max_value').value;
+    const operator = '+'
 
     // 표 생성
     const table = document.getElementById('puzzleTable');
@@ -19,7 +20,7 @@ function generatePuzzle() {
         for (let j = 0; j < 6; j++) {
             const cell = row.insertCell();
             if (i === 0 && j === 0) {
-                cell.textContent = '+';
+                cell.textContent = operator;
                 cell.classList.add("operationSymbol")
             } else if (i === 0) {
                 let randomNumber;
@@ -79,7 +80,7 @@ function checkAnswers() {
             const firstRowSum = parseInt(table.rows[i].cells[0].textContent, 10);
             const firstColSum = parseInt(table.rows[0].cells[j].textContent, 10);
             const userInput = parseInt(table.rows[i].cells[j].querySelector('input').value, 10);
-            if (userInput !== firstRowSum + firstColSum) {
+            if (userInput !== firstColSum + firstRowSum) {
                 table.rows[i].cells[j].querySelector('input').classList.add('red-text');
             } else {
                 table.rows[i].cells[j].querySelector('input').classList.remove('red-text');
@@ -240,13 +241,11 @@ function setBackgroundImage() {
 }
 
 function openSettingBlock() {
-
-    if(document.getElementById('settings').style.display === 'block') {
-        document.getElementById('settings').style.display = 'none';
-        document.getElementById(this.id + '-toggle').innerText = ' +';
+    const settings = document.getElementById('settings')
+    if (settings.style.display === 'block') {
+        settings.style.display = 'none';
       } else {
-        document.getElementById('settings').style.display = 'block';
-        document.getElementById(this.id + '-toggle').innerText = ' -';
+        settings.style.display = 'block';
       }
 }
 
