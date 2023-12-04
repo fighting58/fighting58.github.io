@@ -22,18 +22,25 @@
         </ul>
       </nav>
       <div class="flex-container">
-        <div id="tableContainer" class="flex-item">
-          <div id="settings">
-              <p class="setting-item">가로 열(값의 범위): <input id="col_min_value" class="env-var" value="1"> &LessFullEqual; x &LessFullEqual; <input id="col_max_value" class="env-var" value="9"></p>
-              <p class="setting-item">세로 행(값의 범위): <input id="row_min_value" class="env-var" value="1"> &LessFullEqual; y &LessFullEqual; <input id="row_max_value" class="env-var" value="9"></p> 
+        <div class="group1 flex-item">
+          <div id="tableContainer">
+            <div id="settings">
+              <div>
+                <p class="setting-item">가로 열(값의 범위): <input id="col_min_value" class="env-var" value="1"> &LessFullEqual; x &LessFullEqual; <input id="col_max_value" class="env-var" value="9"></p>
+                <p class="setting-item">세로 행(값의 범위): <input id="row_min_value" class="env-var" value="1"> &LessFullEqual; y &LessFullEqual; <input id="row_max_value" class="env-var" value="9"></p> 
+              </div>
+              <div class="h-line"> &nbsp;</div>
+            </div>
+            <table id="puzzleTable"></table>
           </div>
-          <table id="puzzleTable"></table>
         </div>
-        <div class="buttons flex-item">
-          <button class="button_item" onclick="generatePuzzle()">문제내기</button>
-          <button class="button_item" onclick="checkAnswers()">채점</button>      
+        <div class="group2 flex-item">
+          <div class="buttons">
+            <button class="button_item" onclick="generatePuzzle()">문제내기</button>
+            <button class="button_item" onclick="checkAnswers()">채점</button>      
+          </div>
+          <div id="scoreboard"> &nbsp;</div>
         </div>
-        <p id="scoreboard" class="flex-item"> &nbsp;</p>
       </div>
     <div id="fireworks"></div>
     <script src='adder.js'></script>

@@ -123,8 +123,8 @@ function createFireworksEffect(numParticles, score) {
 
     // Position the canvas above the table
     canvas.style.position = "absolute";
-    canvas.style.left = `${tableLeft/10}rem`;
-    canvas.style.top = `${tableTop/10}rem`;
+    canvas.style.left = `${tableLeft}px`;
+    canvas.style.top = `${tableTop}px`;
     canvas.style.zIndex = "2";
     document.body.appendChild(canvas);
 
@@ -223,21 +223,23 @@ function createFireworksEffect(numParticles, score) {
 }
 
 function setBackgroundImage() {
-    const body = document.body;
-    const screenWidth = window.innerWidth;
-    const screenHeight = window.innerHeight;
-    const scoreboard = document.getElementById('scoreboard') 
-    const scoreboardTop = scoreboard.offsetTop
-    const scoreboardHeight = scoreboard.offsetHeight
+    const scoreboard = document.getElementById('scoreboard')
+    scoreboard.style.backgroundImage = 'url("images/bulbasaur_150x128.png")';
+    scoreboard.style.backgroundSize = "15rem 12.8rem"
+    scoreboard.style.backgroundPosition = `center bottom`
+    // const body = document.body;
+    // const screenWidth = window.innerWidth;
+    // const screenHeight = window.innerHeight;
 
-    if (screenWidth > screenHeight) {
-        // 가로형 배경 이미지 설정
-        body.style.backgroundImage = 'url("images/pokemon-bulbasaur_landscape.jpg")';
-    } else {
-        // 세로형 배경 이미지 설정
-        body.style.backgroundImage = 'url("images/bulbasaur_150x128.png")';
-        body.style.backgroundPosition = `center ${(scoreboardTop + scoreboardHeight - 80)/10}rem`
-    }
+    // if (screenWidth > screenHeight) {
+    //     // 가로형 배경 이미지 설정
+    //     body.style.backgroundImage = 'url("images/pokemon-bulbasaur_landscape.jpg")';
+    // } else {
+    //     // 세로형 배경 이미지 설정
+    //     body.style.backgroundImage = 'url("images/bulbasaur_150x128.png")';
+    //     body.style.backgroundSize = "15rem 12.8rem"
+    //     body.style.backgroundPosition = `center bottom`
+    // }
 }
 
 function openSettingBlock() {
