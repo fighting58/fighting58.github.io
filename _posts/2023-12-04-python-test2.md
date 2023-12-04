@@ -12,8 +12,8 @@ permalink: /python/for-coding-test/
 toc: true
 # toc_sticky: true
 
-date: 2022-03-22
-last_modified_at: 2022-03-22
+date: 2023-12-04
+last_modified_at: 2023-12-04
 ---
 
 문제를 풀면서 자주 찾아보거나 기억할 만한 내용 정리하기
