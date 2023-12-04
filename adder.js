@@ -126,7 +126,6 @@ function createFireworksEffect(numParticles, score) {
     canvas.style.left = `${tableLeft}px`;
     canvas.style.top = `${tableTop}px`;
     canvas.style.zIndex = "2";
-    canvas.style.border ="1px solid blue"
     document.body.appendChild(canvas);
 
     // Get the 2D rendering context
