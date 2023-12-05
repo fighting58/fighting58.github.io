@@ -1,8 +1,5 @@
 # The Site Configuration
 
-include:
-  - _javascript
-
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -186,6 +183,9 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
+
+include:
+  - _javascript
 
 jekyll-archives:
   enabled: [categories, tags]
