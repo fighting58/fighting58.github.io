@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="adder.css">
+    
+    <title>Puzzle Program</title>
+  </head>
+  <body>
+      <nav>
+        <ul class="menu">
+          <li class="nav-title" id="nav-title"><img src="images/plus-circle.svg" alt="더하기 /><span>더 하 기</span></li>
+          <ul class="nav-items">
+            <li class="nav-item menu-icon"><a href="subtractor.html"><img src="images/minus-circle.svg" alt="빼기" /></a></li>
+            <li class="nav-item"><span>|</span></li>
+            <li class="nav-item menu-icon"><a href="multiplyer.html"><img src="images/x-circle.svg" alt="곱하기" /></a></li>
+            <li class="nav-item"><span>|</span></li>
+            <li class="nav-item menu-icon"><a href="divider.html"><img src="images/divide-circle.svg" alt="나누기" /></a></li>
+          </ul>
+          <li class="setting-menu menu-icon" id="setting-button"><img src="images/settings.svg" alt="설정"/></li>
+        </ul>
+      </nav>
+      <div class="flex-container">
+        <div id="tableContainer" class="flex-item">
+          <div id="settings">
+              <p class="setting-item">가로 열(값의 범위): <input id="col_min_value" class="env-var" value="1"> &LessFullEqual; x &LessFullEqual; <input id="col_max_value" class="env-var" value="9"></p>
+              <p class="setting-item">세로 행(값의 범위): <input id="row_min_value" class="env-var" value="1"> &LessFullEqual; y &LessFullEqual; <input id="row_max_value" class="env-var" value="9"></p> 
+          </div>
+          <table id="puzzleTable"></table>
+        </div>
+        <div class="buttons flex-item">
+          <button class="button_item" onclick="generatePuzzle()">문제내기</button>
+          <button class="button_item" onclick="checkAnswers()">채점</button>      
+        </div>
+        <p id="scoreboard" class="flex-item"> &nbsp;</p>
+      </div>
+    <div id="fireworks"></div>
+    <script src='adder.js'></script>
+  </body>
+</html>
