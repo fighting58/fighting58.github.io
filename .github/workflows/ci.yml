@@ -33,7 +33,6 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v4
-        run: NODE_ENV=production npx rollup -c --bundleConfigAsCjs
 
       - name: Build Assets
         run: npm i && npm run build
