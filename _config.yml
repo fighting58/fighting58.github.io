@@ -158,7 +158,7 @@ defaults:
     values:
       swcache: true
   - scope:
-      path: asset/js/dist
+      path: _javascript
     values:
       swcache: true
 
