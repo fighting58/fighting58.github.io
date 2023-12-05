@@ -29,7 +29,7 @@ github:
   username: fighting58 # change to your github username
 
 twitter:
-  username: fighting58 # change to your twitter username
+  username: '' # change to your twitter username
 
 social:
   # Change to your full name.
@@ -183,9 +183,6 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
-
-include:
-  - _javascript
 
 jekyll-archives:
   enabled: [categories, tags]
