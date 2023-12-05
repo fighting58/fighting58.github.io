@@ -1,13 +1,8 @@
 ---
 title: 두 번째 포스트
 date: 2023-12-05T11:49:00.000Z
-categories:
-  - Life
-  - Daily
-tags:
-  - Test
-  - Toc
-published: false
+categories:  [Life,  Daily]
+tags:  [ Test,   Toc]
 ---
 
 ## A New Post
