@@ -1,12 +1,13 @@
 ---
 title: 두 번째 포스트
-date: 2023-12-05 20:49:00 +09:00
-categories: [Life, Daily]
+date: 2023-12-05T11:49:00.000Z
+categories:
+  - Life
+  - Daily
 tags:
-  [
-    Test,
-    ToC
-  ]
+  - Test
+  - Toc
+published: false
 ---
 
 ## A New Post
@@ -30,4 +31,4 @@ print("Hello world")
 
 ## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Enter text in MarkDown. Use the toolbar above, or click the **?** button for formatting help.
