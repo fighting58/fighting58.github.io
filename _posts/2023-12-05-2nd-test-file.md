@@ -1,6 +1,17 @@
 ---
 published: false
 ---
+---
+title: 두 번째 포스트
+date: 2023-12-05 20:49:00 +09:00
+categories: [Life, Daily]
+tags:
+  [
+    Test,
+    ToC
+  ]
+---
+
 ## A New Post
 
 이것은 하나의 작은 기다림
