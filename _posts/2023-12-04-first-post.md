@@ -202,7 +202,7 @@ tags: [	GithubBlog,  jekyll ]
         
 - .gitignore 파일 수정  
   
-  - assets/js/dist 부분을 주석처리(맨 앞에 '**#**' 추가)
+  - assets/js/dist 부분을 주석처리(맨 앞에 추가)
 
 - git에 반영
 
