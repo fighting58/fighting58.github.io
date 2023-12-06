@@ -1,7 +1,7 @@
 ---
 
 title: Arithmetics
-date: date: 2023-12-05 21:56:00 +09:00
+date: 2023-12-05 21:56:00 +09:00
 categories: [Life, Daily]
 tags: [ GithubBlog,  jekyll ]
 
