@@ -46,7 +46,7 @@ tags: [	GithubBlog,  jekyll ]
 
 - git에 반영
 
-  ```git bash
+  ```shell
     git pull
     git add .
     git commit -m 'Init Gemfile.lock'
@@ -61,7 +61,7 @@ tags: [	GithubBlog,  jekyll ]
   
 - 설치 후 command 창에서 다음 명령 실행
 
-  ```command
+  ```
     npm install
     npm run build
   ```
@@ -70,7 +70,7 @@ tags: [	GithubBlog,  jekyll ]
 
     > 'NODE_ENV'은(는) 내부 또는 외부 명령, 실행할수 있는 프로그램, 또는 배치파일이 아닙니다
 
-    ```command
+    ```
       npm install -g win-node-env
       npm run build
     ```
@@ -81,10 +81,9 @@ tags: [	GithubBlog,  jekyll ]
 
 - git에 반영
 
-  ```git bash
+  ```shell
     git add .
     git commit -m 'Update .gitignore'
     git push -u origin main      
   ```
 
-  
