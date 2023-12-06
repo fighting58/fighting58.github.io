@@ -1,12 +1,8 @@
 ---
 title: Github 블로그 생성(Chirpy Theme) 2
-date: {}
-categories:
-  - Life
-  - Daily
-tags:
-  - GithubBlog
-  - jekyll
+date: 2023-12-04 22:56:00 +09:00
+categories: [ Life,  Daily ]  
+tags: [ GithubBlog, jekyll ]
 published: true
 ---
 
