@@ -22,9 +22,10 @@ tags: [	GithubBlog,  jekyll ]
 
 ### Home 화면에 포스트 안 보임  
 
-- _layouts 폴더 속 home.html 편집  
+- &#95;layouts 폴더 속 home.html 편집  
 
 > {% for post in posts %} 를 {% for post in **site.posts** %}로 수정  
+
 ```html
   <div id="post-list" class="flex-grow-1 px-xl-1">
     {% for post in site.posts %}
