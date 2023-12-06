@@ -58,7 +58,7 @@ published: true
   
 - 설치 후 command 창에서 다음 명령 실행  
 
-  ```
+  ```command
     npm install
     npm run build
   ```
@@ -67,7 +67,7 @@ published: true
 
     > NODE_ENV은(는) 내부 또는 외부 명령, 실행할수 있는 프로그램, 또는 배치파일이 아닙니다  
 
-    ```
+    ```command
       npm install -g win-node-env
       npm run build
     ```
