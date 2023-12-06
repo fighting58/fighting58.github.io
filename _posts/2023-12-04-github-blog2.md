@@ -24,11 +24,6 @@ tags: [	GithubBlog,  jekyll ]
 
 - &#95;layouts 폴더 속 home.html 편집  
 
-> 중간에 'for post in posts'를 'for post in **site.posts**' 로 수정  
+> 중간에 `{% for post in posts %}`를 `{% for post in site.posts %}`로 수정  
 
-```html
-  <div id="post-list" class="flex-grow-1 px-xl-1">
-    {% for post in site.posts %}
-      <article class="card-wrapper card">
-```
-    
+
