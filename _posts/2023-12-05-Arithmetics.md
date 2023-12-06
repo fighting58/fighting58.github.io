@@ -1,8 +1,8 @@
 ---
-title: Arithmetics Test
-date: 2023-12-05T12:35:00.000Z
+title: Arithmetics
+date: date: 2023-12-05 21:56:00 +09:00
 categories: [Life, Daily]
-tags: [Test, Study]
+tags: [Arithmetics]
 ---
 
 # 사칙 연산
