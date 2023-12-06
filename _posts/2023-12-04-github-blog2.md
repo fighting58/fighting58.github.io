@@ -52,38 +52,3 @@ tags: [	GithubBlog,  jekyll ]
     git commit -m 'Init Gemfile.lock'
     git push -u origin main      
   ```
-
-### 빌드 실패 Test Site
-
-> internal script /assets/js/dist/page.min.js does not exit .. 이런 내용들
-  
-- Node.js 설치([버전(16.20.2) x64 다운로드(msi)](https://nodejs.org/download/release/v16.20.2/node-v16.20.2-x64.msi))
-  
-- 설치 후 command 창에서 다음 명령 실행
-
-  ```
-    npm install
-    npm run build
-  ```
-
-  - 실행 중 다음 오류 발생 시 추가 명령 실행 후
-
-    > 'NODE_ENV'은(는) 내부 또는 외부 명령, 실행할수 있는 프로그램, 또는 배치파일이 아닙니다
-
-    ```
-      npm install -g win-node-env
-      npm run build
-    ```
-        
-- .gitignore 파일 수정  
-  
-  - assets/js/dist 부분을 주석처리(맨 앞에 '#' 추가)
-
-- git에 반영
-
-  ```shell
-    git add .
-    git commit -m 'Update .gitignore'
-    git push -u origin main      
-  ```
-
