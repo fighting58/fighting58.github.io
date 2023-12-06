@@ -24,6 +24,4 @@ tags: [	GithubBlog,  jekyll ]
 
 - &#95;layouts 폴더 속 home.html 편집  
 
-> 중간에 `{% for post in posts %}`를 `{% for post in site.posts %}`로 수정  
-
-
+- 중간에 &#123;&#37; for post in posts &#37;&#125;를 &#123;&#37; for post in site.posts &#37;&#125;로 수정  
