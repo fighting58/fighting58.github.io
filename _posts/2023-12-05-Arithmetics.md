@@ -1,8 +1,10 @@
 ---
+
 title: Arithmetics
 date: date: 2023-12-05 21:56:00 +09:00
 categories: [Life, Daily]
-tags: [Arithmetics]
+tags: [ GithubBlog,  jekyll ]
+
 ---
 
 # 사칙 연산
