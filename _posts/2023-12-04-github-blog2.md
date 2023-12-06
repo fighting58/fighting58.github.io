@@ -24,7 +24,7 @@ tags: [	GithubBlog,  jekyll ]
 
 - &#95;layouts 폴더 속 home.html 편집  
 
-> {% for post in posts %} 를 {% for post in **site.posts** %}로 수정  
+> 중간에 `{% for post in posts %}` 를 `{% for post in site.posts %}`로 수정  
 
 ```html
   <div id="post-list" class="flex-grow-1 px-xl-1">
@@ -73,7 +73,7 @@ tags: [	GithubBlog,  jekyll ]
       npm run build
     ```
         
-- .gitignore 파일 수정  
+- &#46;gitignore 파일 수정  
   
   - assets/js/dist 부분을 주석처리(맨 앞에 '#' 추가)  
 
