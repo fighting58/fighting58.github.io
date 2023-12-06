@@ -21,13 +21,13 @@ published: true
 
 ### Home 화면에 포스트 안 보임  
 
-- &#95;layouts 폴더 속 home.html 편집  
+- _layouts 폴더 속 home.html 편집  
 
 - 중간에 &#123;&#37; for post in posts &#37;&#125;를 &#123;&#37; for post in site.posts &#37;&#125;로 수정
 
 ```html
   <div id="post-list" class="flex-grow-1 px-xl-1">  
-    {% for post in site.posts %}  
+    { % for post in site.posts % }   <!-- 수정 -->
       <article class="card-wrapper card">  
 ```
     
@@ -72,7 +72,7 @@ published: true
       npm run build
     ```
         
-- &#46;gitignore 파일 수정  
+- .gitignore 파일 수정  
   
   - assets/js/dist 부분을 주석처리(맨 앞에 '#' 추가)  
 
