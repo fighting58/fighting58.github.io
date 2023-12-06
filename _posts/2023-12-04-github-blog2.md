@@ -66,7 +66,7 @@ tags: [	GithubBlog,  jekyll ]
 
   - 실행 중 다음 오류 발생 시 추가 명령 실행 후  
 
-    > 'NODE_ENV'은(는) 내부 또는 외부 명령, 실행할수 있는 프로그램, 또는 배치파일이 아닙니다  
+    > NODE_ENV은(는) 내부 또는 외부 명령, 실행할수 있는 프로그램, 또는 배치파일이 아닙니다  
 
     ```
       npm install -g win-node-env
