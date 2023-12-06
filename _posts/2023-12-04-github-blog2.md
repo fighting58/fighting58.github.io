@@ -26,7 +26,7 @@ tags: [	GithubBlog,  jekyll ]
 
 - 중간에 &#123;&#37; for post in posts &#37;&#125;를 &#123;&#37; for post in site.posts &#37;&#125;로 수정  
 
-```html
+``` 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in site.posts %}
     <article class="card-wrapper card">
