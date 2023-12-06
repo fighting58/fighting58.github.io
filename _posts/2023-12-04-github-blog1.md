@@ -154,7 +154,7 @@ tags: [	GithubBlog,  jekyll ]
 
 ```html
   <div id="post-list" class="flex-grow-1 px-xl-1">  
-    { % for post in site.posts % }   <!-- 수정 -->
+    { % for post in site.posts % }   <!-- '{', '}'과 '%' 사이에 공백이 없는 것이 맞음.  -->
       <article class="card-wrapper card">  
 ```
     
