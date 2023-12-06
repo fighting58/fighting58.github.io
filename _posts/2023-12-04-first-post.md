@@ -130,7 +130,7 @@ tags:
 
   ### Home 페이지 오류
 
-    - --- layout: home # Index page --- 이 보이는 현상
+    > --- layout: home # Index page --- 이 보이는 현상
     - Github 페이지 설정 변경
       - Settings - Pages - Build and deployment에서 소스를 Github Actions로 변경
       - Jekyll - Configure 버튼 클릭
